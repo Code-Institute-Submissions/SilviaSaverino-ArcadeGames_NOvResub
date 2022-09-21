@@ -9,7 +9,7 @@
     background-color: pink;
     position: relative;
     top: 450px;
-    left: 10px;
+    left: 30px;
 }
 
 #dd-obstacle {
@@ -19,15 +19,15 @@
     position: relative;
     top: 425px;
     left: 475px;
-    animation: speeding 1s infinite;
+    animation: speeding 2s infinite;
 }
 
 @keyframes speeding {
     0% {background-color:yellow; left:475px; top:425px;}
-    25% {background-color:greenyellow; left:357px; top:425px;}
+  /*  25% {background-color:greenyellow; left:357px; top:425px;}
     50% {background-color: green; left:239px; top:425px;}
-    75% {background-color:lightblue; left: 121px; top:425px;}
-    100% {background-color: purple; left:0px; top:425px;}
+    75% {background-color:lightblue; left: 121px; top:425px;}*/
+    100% {background-color: purple; left:-0px; top:425px;}
     
 }
 
