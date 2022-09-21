@@ -14,18 +14,15 @@ function jump(){
 /** check for collision every 15mSec*/
 
 var checkCollision = setInterval(function() {
-   var player= parseInt(window.getComputedStyle(player).getPropertyValue('top'));
+    var playerTop = parseInt(window.getComputedStyle(player).getPropertyValue('top'));
 
-}, 10);
-
-var checkCollision = setInterval(function() {
     var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue('left'));
 
-    if(obstacleLeft < 25 && obstacle.Left > 10 && player >= 130){
+    if(obstacleLeft < 20 && obstacle.Left > 0 && player >= 130){
         obstacle.style.animation = 'none';
         obstacle.style.display = 'none';
         alert('collision');
     }
+   
  
  }, 10);
-
