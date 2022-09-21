@@ -12,6 +12,15 @@
     left: 10px;
 }
 
+#dd-obstacle {
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+    position: relative;
+    top: 425px;
+    left: 475px;
+}
+
 .playground {
     width: 500px;
     height: 500px;
