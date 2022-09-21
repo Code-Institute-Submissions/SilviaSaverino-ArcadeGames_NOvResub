@@ -10,6 +10,13 @@
     position: relative;
     top: 450px;
     left: 30px;
+    animation: jump 1s infinite;
+}
+
+@keyframes jump {
+    0% {top: 450px;}
+    35% {top: 400px;}
+    100% {top: 450px;}        
 }
 
 #dd-obstacle {
