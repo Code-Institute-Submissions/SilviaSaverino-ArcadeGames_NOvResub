@@ -10,8 +10,8 @@
     position: relative;
     top: 450px;
     left: 30px;
-    animation: jump 1s infinite;
 }
+
 
 @keyframes jump {
     0% {top: 450px;}
@@ -43,4 +43,8 @@
     height: 500px;
     border: 2px black solid;
     background-color: rgb(93, 93, 227);
+}
+
+.up {
+    animation: jump 1s;
 }
