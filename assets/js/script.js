@@ -36,11 +36,33 @@ var checkCollision = setInterval(function() {
  const playerMove = document.getElementById('player-move')
  const result = document.getElementById('result')
 
-let playerChoice
+ let playerChoice
+ let computerChoice
  const possibleOptions= document.querySelectorAll('button')
  
- possibleOptions.forEach(possibleOptions => possibleOptions.addEventListener('click', (e) => {
+ possibleOptions.forEach(possibleOption => possibleOption.addEventListener('click', (e) => {
    playerChoice = e.target.id
    playerMove.innerHTML =playerChoice
+   generateComputerMove()
  }
  ))
+
+ /** let computer pick an option */
+
+ function generateComputerMove() {
+    const randomNumber = Math.floor(Math.random() * 3) 
+
+    if (randomNumber === 0) {
+        computerChoice = 'rock'
+    }
+
+    if (randomNumber === 1) {
+        computerChoice = 'scissors'
+    }
+
+    if (randomNumber === 2) {
+        computerChoice = 'paper'
+    }
+
+    computerMove.innerHTML = computerChoice
+ }
