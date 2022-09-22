@@ -9,6 +9,12 @@ header {
 
 body {
     background-color: yellow;
+    height: 50px;
+}
+
+footer {
+    background-color: green;
+    height: 50px;
 }
 /*home page style*/
 #homepage-box{
@@ -16,6 +22,7 @@ body {
     width: 500px;
     background-color: blueviolet;
     border: 2px solid black;
+    margin: 30px;
 }
 
 button {
