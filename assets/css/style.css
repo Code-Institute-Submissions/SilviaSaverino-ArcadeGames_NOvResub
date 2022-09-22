@@ -11,16 +11,18 @@ a {
     text-decoration: none;
 }
 
+/*header*/
 header {
-    background-color: red;
+    background-color: rgba(23,9,70,100);
     height: 75px;
 }
 header h2 {
     font-family: Chakra Petch, sans-serif, helvetica;
     font-size: 335%;
-    color: purple;
+    color: rgba(224,51,236,255);
 }
 
+/*body*/
 body {
     background-color: black;
 }
@@ -29,19 +31,22 @@ body {
     background-image: url(../images/background.jpg) ;
 }
 
+/*footer*/
 footer {
-    background-color: green;
+    background-color: rgba(23,9,70,100);
     height: 50px;
 }
+
 /*home page style*/
 #homepage-box{
     height: 500px;
     width: 500px;
-    background-color: blueviolet;
+    background-color: rgba(29,48,133,255);
     border: 2px solid black;
     margin: 30px;
 }
 
+/*home page button style*/
 button {
     background-color: grey;
     height: 50px;
@@ -53,6 +58,16 @@ button a {
     color: black;
     font-size: 30px;
 }
+
+.button-distance {
+    margin: 50px
+}
+
+.button-distance button {
+    background-color: rgba(199,164,102,255);
+    color: rgba(44,114,244,255)
+}
+
 
 /*first game*/
 #dd-player {
