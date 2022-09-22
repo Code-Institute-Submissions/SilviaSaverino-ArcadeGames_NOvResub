@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
-<!--this onclick must be turned into an eventListener-->
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -19,21 +18,32 @@
                     <a href="1stGame.html">1st game title</a>
                 </li>
                 <li>
-                    <a href="2ndGame.html">2nd Game Title</a>
+                    <a href="2ndGame.html" class="active">2nd Game Title</a>
                 </li>
                 <li>
-                    <a href="3rdGame.html" class="active">3rd Game Title</a>
+                    <a href="3rdGame.html">3rd Game Title</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div>
-        
-        <button>1st Game Title</button>
-        <button>2nd Game Title</button>
-        <button>3rd Game Title</button>
+    
+    <div id="second-game">
+        <h2>Computer move: <span id="computer-move"></span></h2>
+        <h2>Your move: <span id="player-move"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+
+        <div>
+            <h2>
+                Score: <span id="Score2"></span>
+            </h2>
+        </div>
 
     </div>
+
 
 
     <script src="/assets/js/script.js"></script>
