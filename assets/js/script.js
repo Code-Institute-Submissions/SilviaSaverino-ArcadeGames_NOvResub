@@ -28,3 +28,15 @@ var checkCollision = setInterval(function() {
    
  
  }, 10);
+
+
+ /* second-game: rock-paper-scissors */
+
+ const computerMove = document.getElementById('computer-move')
+ const playerMove = document.getElementById('player-move')
+ const result = document.getElementById('result')
+ const score2 = document.getElementById('score2')
+
+ const options= document.querySelector('.options')
+ 
+ 
