@@ -1,5 +1,7 @@
 const player = document.getElementById('dd-player');
 const obstacle = document.getElementById('dd-obstacle');
+const playerHeight = 50;
+const playerWidth = 30;
 
 /**makes the character jump*/
 function jump(){

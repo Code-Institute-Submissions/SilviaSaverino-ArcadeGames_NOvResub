@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()" > <!--this onclick must be turned into an eventListener-->>
+<html lang="en" onclick="jump()">
+<!--this onclick must be turned into an eventListener-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Arcade Games</title>
 </head>
+
 <body>
     <div id="first-game">
         <div class="playground">
@@ -15,8 +18,27 @@
             <div id="dd-obstacle"></div>
         </div>
     </div>
-    
+
+
+    <div id="second-game">
+        <h2>Computer move: <span id="computer-move"></span></h2>
+        <h2>Your move: <span id="player-move"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+
+        <button id="rock"></button>
+        <button id="paper"></button>
+        <button id="scissors"></button>
+
+        <div>
+            <h2>
+                Score: <span id="Score2"></span>
+            </h2>
+        </div>
+
+    </div>
+
 
     <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
