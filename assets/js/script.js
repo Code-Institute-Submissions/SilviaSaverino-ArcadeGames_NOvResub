@@ -34,20 +34,23 @@ var checkCollision = setInterval(function() {
 
  const computerMove = document.getElementById('computer-move')
  const playerMove = document.getElementById('player-move')
- const result = document.getElementById('result')
+ const resultDisplay = document.getElementById('result')
 
  let playerChoice
  let computerChoice
+ let results
+
  const possibleOptions= document.querySelectorAll('button')
  
  possibleOptions.forEach(possibleOption => possibleOption.addEventListener('click', (e) => {
    playerChoice = e.target.id
    playerMove.innerHTML =playerChoice
    generateComputerMove()
+   showResult()
  }
  ))
 
- /** let computer pick an option */
+ /** let computer show an option */
 
  function generateComputerMove() {
     const randomNumber = Math.floor(Math.random() * 3) 
@@ -66,3 +69,33 @@ var checkCollision = setInterval(function() {
 
     computerMove.innerHTML = computerChoice
  }
+
+ /** show result */
+function showResult() {
+    if (computerChoice === playerChoice) {
+        result = 'Draw!'
+    }
+
+    if (computerChoice === 'scissors' && userChoice === "paper") {
+        result = 'You lose!'
+      }
+      if (computerChoice === 'scissors' && userChoice === "rock") {
+        result = 'You win!'
+      }
+
+      if (computerChoice === 'rock' && userChoice === "paper") {
+        result = 'You win!'
+      }
+      if (computerChoice === 'rock' && userChoice === "scissors") {
+        result = 'You lose!'
+      }
+      if (computerChoice === 'paper' && userChoice === "scissors") {
+        result = 'You lose!'
+      }
+      if (computerChoice === 'paper' && userChoice === "rock") {
+        result = 'You win!'
+      }
+
+    resultDisplay.innerHTML = results /*it doesn't show! to be fixed!*/
+
+}
