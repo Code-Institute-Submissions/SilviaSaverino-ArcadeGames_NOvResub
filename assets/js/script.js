@@ -35,8 +35,12 @@ var checkCollision = setInterval(function() {
  const computerMove = document.getElementById('computer-move')
  const playerMove = document.getElementById('player-move')
  const result = document.getElementById('result')
- const score2 = document.getElementById('score2')
 
- const options= document.querySelector('.options')
+let playerChoice
+ const possibleOptions= document.querySelectorAll('button')
  
- 
+ possibleOptions.forEach(possibleOptions => possibleOptions.addEventListener('click', (e) => {
+   playerChoice = e.target.id
+   playerMove.innerHTML =playerChoice
+ }
+ ))
