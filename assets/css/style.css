@@ -118,3 +118,18 @@ button a {
 
 /* Rock paper scissors game2 */
 
+#computer-move {
+    color: red;
+}
+
+.game2-button button{
+    background-color: pink;
+    width: 100px;
+    margin: 25px;
+    margin-top: 150px;
+  }
+
+  .computer-vs-player {
+    background-color: aliceblue;
+  }
+
