@@ -133,3 +133,20 @@ button a {
     background-color: aliceblue;
   }
 
+/*third game*/
+
+#playground3 {
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    background-color: red
+}
+
+#player3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    background-color: blue;
+    z-index: 1;
+}

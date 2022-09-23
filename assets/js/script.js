@@ -99,3 +99,6 @@ function showResult() {
     resultDisplay.innerHTML = results /*it doesn't show! to be fixed!*/
 
 }
+
+
+/*third game*/
