@@ -73,27 +73,27 @@ var checkCollision = setInterval(function() {
  /** show result */
 function showResult() {
     if (computerChoice === playerChoice) {
-        result = 'Draw!'
+        results = 'Draw!'
     }
 
     if (computerChoice === 'scissors' && userChoice === "paper") {
-        result = 'You lose!'
+        results = 'You lose!'
       }
       if (computerChoice === 'scissors' && userChoice === "rock") {
-        result = 'You win!'
+        results = 'You win!'
       }
 
       if (computerChoice === 'rock' && userChoice === "paper") {
-        result = 'You win!'
+        results = 'You win!'
       }
       if (computerChoice === 'rock' && userChoice === "scissors") {
-        result = 'You lose!'
+        results = 'You lose!'
       }
       if (computerChoice === 'paper' && userChoice === "scissors") {
-        result = 'You lose!'
+        results = 'You lose!'
       }
       if (computerChoice === 'paper' && userChoice === "rock") {
-        result = 'You win!'
+        results = 'You win!'
       }
 
     resultDisplay.innerHTML = results /*it doesn't show! to be fixed!*/

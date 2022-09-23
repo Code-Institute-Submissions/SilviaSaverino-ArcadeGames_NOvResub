@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="jump()">
+<!--this onclick must be turned into an eventListener-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--bootstrap link-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Arcade Games</title>
@@ -12,13 +16,19 @@
 
 <body>
     <header>
+        <h2 class="text-center">Arcade Games</h2>
+       
         <nav id="menu">
             <ul>
+                <li>
+                    <a href="index.html" class="active">Homepage</a>
+                </li>
+                
                 <li>
                     <a href="1stGame.html">1st game title</a>
                 </li>
                 <li>
-                    <a href="2ndGame.html" class="active">2nd Game Title</a>
+                    <a href="2ndGame.html">2nd Game Title</a>
                 </li>
                 <li>
                     <a href="3rdGame.html">3rd Game Title</a>
@@ -26,27 +36,47 @@
             </ul>
         </nav>
     </header>
-    
-    <div id="second-game">
-        <h2>Computer move: <span id="computer-move"></span></h2>
-        <h2>Your move: <span id="player-move"></span></h2>
-        <h2>Result: <span id="result"></span></h2>
 
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+<!--background image-->
 
-        <div>
-            <h2>
-                Score: <span id="Score2"></span>
-            </h2>
+<section class="main-style">
+    <div class="container d-flex justify-content-center text-center">
+        <div class="playground">
+            <div id="second-game">
+                <h2>Computer move: <span id="computer-move"></span></h2>
+                <h2>Your move: <span id="player-move"></span></h2>
+                <h2>Result: <span id="result"></span></h2>
+        
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+        
+                <div>
+                    <h2>
+                        Score: <span id="Score2"></span>
+                    </h2>
+                </div>
+        
+            </div>
         </div>
-
+        
     </div>
 
-
-
+</section>
+    
+    
+<!--scripts-->
+    <script src="https://kit.fontawesome.com/c84567f57f.js" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
 </body>
+<footer>
+    <p>insert favicon later</p>
+</footer>
 
 </html>
+    
+   
+
+
+
+    
