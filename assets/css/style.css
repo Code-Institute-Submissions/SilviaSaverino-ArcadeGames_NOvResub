@@ -168,7 +168,7 @@ button a {
     border: 10px pink solid;
     position: retalive;
     top: 30px;
-    z-index: 1;
+    margin-top: -10px;
     
     
 }
