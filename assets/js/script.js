@@ -132,3 +132,8 @@ document.addEventListener("keydown", event => {
 
 });
 
+/*stop the ball moving*/
+document.addEventListener('keyup', event =>{
+  clearInterval(interval);
+})
+
