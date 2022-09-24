@@ -73,7 +73,7 @@ button a {
 #dd-player {
     width: 30px;
     height: 50px;
-    background-color: pink;
+    background-image: url(../images/player-game1.png);
     position: relative;
     top: 450px;
     left: 30px;
@@ -89,7 +89,8 @@ button a {
 #dd-obstacle {
     width: 25px;
     height: 25px;
-    background-color: aqua;
+    /* image: url(../images/obstacle-game1.png);  */
+    background-image: 'transparent';
     position: relative;
     top: 425px;
     left: 475px;
@@ -97,11 +98,11 @@ button a {
 }
 
 @keyframes speeding {
-    0% {background-color:yellow; left:475px; top:425px;}
+    0% {left:475px; top:425px;}
   /*  25% {background-color:greenyellow; left:357px; top:425px;}
     50% {background-color: green; left:239px; top:425px;}
     75% {background-color:lightblue; left: 121px; top:425px;}*/
-    100% {background-color: purple; left:-0px; top:425px;}
+    100% {left:-0px; top:425px;}
     
 }
 
@@ -109,7 +110,9 @@ button a {
     width: 500px;
     height: 500px;
     border: 2px black solid;
-    background-color: rgb(93, 93, 227);
+    background-image: url(../images/background-game1.jpg);
+    background-repeat: none;
+    background-size: contain;
 }
 
 .up {

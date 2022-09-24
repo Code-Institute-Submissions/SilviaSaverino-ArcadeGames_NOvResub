@@ -29,6 +29,8 @@ var checkCollision = setInterval(function() {
  
  }, 10);
 
+ 
+
 
  /* --------------------------------------------second-game: rock-paper-scissors -------------------------------------*/
 
