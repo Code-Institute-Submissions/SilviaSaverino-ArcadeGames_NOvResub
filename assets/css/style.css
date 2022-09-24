@@ -75,15 +75,15 @@ button a {
     height: 50px;
     background-image: url(../images/player-game1.png);
     position: relative;
-    top: 450px;
+    top: 420px;
     left: 30px;
 }
 
 
 @keyframes jump {
-    0% {top: 450px;}
-    35% {top: 400px;}
-    100% {top: 450px;}        
+    0% {top: 420px;}
+    35% {top: 370px;}
+    100% {top: 420px;}        
 }
 
 #dd-obstacle {
@@ -92,17 +92,17 @@ button a {
     /* image: url(../images/obstacle-game1.png);  */
     background-image: 'transparent';
     position: relative;
-    top: 425px;
+    top: 395px;
     left: 475px;
     animation: speeding 2s infinite;
 }
 
 @keyframes speeding {
-    0% {left:475px; top:425px;}
+    0% {left:475px; top:395px;}
   /*  25% {background-color:greenyellow; left:357px; top:425px;}
     50% {background-color: green; left:239px; top:425px;}
     75% {background-color:lightblue; left: 121px; top:425px;}*/
-    100% {left:-0px; top:425px;}
+    100% {left:-0px; top:395px;}
     
 }
 
