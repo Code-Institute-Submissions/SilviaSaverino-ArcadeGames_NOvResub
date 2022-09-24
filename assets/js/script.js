@@ -108,16 +108,20 @@ var ball = document.getElementById('ball');
 /** move the ball to the right */
 function moveRight(){
   var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));
-  
-      ball.style.left = left + 2 + "px";
+  if(left<470){
+    ball.style.left = left + 2 + "px";
+  }
+      
   
 }
 
 /** move the ball to the left */
 function moveLeft(){
   var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));
-  
-      ball.style.left = left - 2 + "px";
+  if(left>0){
+    ball.style.left = left - 2 + "px";
+  }
+        
   
 }
 
@@ -135,5 +139,5 @@ document.addEventListener("keydown", event => {
 /*stop the ball moving*/
 document.addEventListener('keyup', event =>{
   clearInterval(interval);
-})
+});
 
