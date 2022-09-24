@@ -37,7 +37,7 @@ footer {
     height: 50px;
 }
 
-/*home page style*/
+/*---------------------------------------------------home page style------------------------------------------------*/
 #homepage-box{
     height: 500px;
     width: 500px;
@@ -69,7 +69,7 @@ button a {
 }
 
 
-/*first game*/
+/*--------------------------------------------------------------first game----------------------------------------*/
 #dd-player {
     width: 30px;
     height: 50px;
@@ -116,7 +116,7 @@ button a {
     animation: jump 1s;
 }
 
-/* Rock paper scissors game2 */
+/*--------------------------------------------------Second Game - Rock paper scissors game2 ----------------------------*/
 
 #computer-move {
     color: red;
@@ -133,20 +133,22 @@ button a {
     background-color: aliceblue;
   }
 
-/*third game*/
+/*------------------------------------------------------third game-----------------------------------------------*/
 
-#playground3 {
+#playground-c {
     width: 500px;
     height: 500px;
     border: 2px black solid;
     background-color: red
 }
 
-#player3 {
+#ball {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     position: relative;
     background-color: blue;
+    top: 50px;
+    left: 220px;
     z-index: 1;
 }

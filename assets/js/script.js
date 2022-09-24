@@ -30,7 +30,7 @@ var checkCollision = setInterval(function() {
  }, 10);
 
 
- /* second-game: rock-paper-scissors */
+ /* --------------------------------------------second-game: rock-paper-scissors -------------------------------------*/
 
  const computerMove = document.getElementById('computer-move')
  const playerMove = document.getElementById('player-move')
@@ -101,4 +101,25 @@ function showResult() {
 }
 
 
-/*third game*/
+/*-----------------------------------------------third game-----------------------------------------------*/
+var playgroundC = document.getElementById('playground-c'); 
+var ball = document.getElementById('ball');
+
+/** move the ball to the right */
+function moveRight(){
+  var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));
+  
+      ball.style.left = left + 2 + "px";
+  
+}
+
+/** move the ball to the left */
+function moveLeft(){
+  var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));
+  
+      ball.style.left = left - 2 + "px";
+  
+}
+
+
+
