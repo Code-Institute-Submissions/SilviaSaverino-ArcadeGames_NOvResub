@@ -4,107 +4,105 @@ const obstacle = document.getElementById('dd-obstacle');
 const playerWidth = 30;*/
 
 /**makes the character jump*/
-function jump(){
-    if(player.classList != 'up'){
-        player.classList.add('up');
-    }
-    setTimeout(function(){
-        player.classList.remove('up');
-    },500);
+function jump() {
+  if (player.classList != 'up') {
+    player.classList.add('up');
+  }
+  setTimeout(function () {
+    player.classList.remove('up');
+  }, 500);
 }
 
 /** check for collision every 15mSec*/
 
-var checkCollision = setInterval(function() {
-    // var playerTop = parseInt(window.getComputedStyle(player).getPropertyValue('top'));
+var checkCollision = setInterval(function () {
+  // var playerTop = parseInt(window.getComputedStyle(player).getPropertyValue('top'));
 
-    var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue('left'));
+  var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue('left'));
 
-    if(obstacleLeft < 60 && obstacleLeft > 30 && !player.classList.contains('up')){
-        obstacle.style.animation = 'none';
-        obstacle.style.display = 'none';
-        alert('collision');
-    }
-   
- 
- }, 10);
-
- 
+  if (obstacleLeft < 60 && obstacleLeft > 30 && !player.classList.contains('up')) {
+    obstacle.style.animation = 'none';
+    obstacle.style.display = 'none';
+    alert('collision');
+  }
 
 
- /* --------------------------------------------second-game: rock-paper-scissors -------------------------------------*/
+}, 10);
 
- const computerMove = document.getElementById('computer-move')
- const playerMove = document.getElementById('player-move')
- const resultDisplay = document.getElementById('result')
 
- let playerChoice
- let computerChoice
- let results
 
- const possibleOptions= document.querySelectorAll('button')
- 
- possibleOptions.forEach(possibleOption => possibleOption.addEventListener('click', (e) => {
-   playerChoice = e.target.id
-   playerMove.innerHTML =playerChoice
-   generateComputerMove()
-   showResult()
- }
- ))
 
- /** let computer show an option */
+/* --------------------------------------------second-game: rock-paper-scissors -------------------------------------*/
 
- function generateComputerMove() {
-    const randomNumber = Math.floor(Math.random() * 3) 
+const computerMove = document.getElementById('computer-move')
+const playerMove = document.getElementById('player-move')
+const resultDisplay = document.getElementById('result')
 
-    if (randomNumber === 0) {
-        computerChoice = 'rock'
-    }
+let playerChoice
+let computerChoice
+let results
 
-    if (randomNumber === 1) {
-        computerChoice = 'scissors'
-    }
+const possibleOptions = document.querySelectorAll('button')
 
-    if (randomNumber === 2) {
-        computerChoice = 'paper'
-    }
+possibleOptions.forEach(possibleOption => possibleOption.addEventListener('click', (e) => {
+  playerChoice = e.target.id
+  playerMove.innerHTML = playerChoice
+  generateComputerMove()
+  showResult()
+}))
 
-    computerMove.innerHTML = computerChoice
- }
+/** let computer show an option */
 
- /** show result */
+function generateComputerMove() {
+  const randomNumber = Math.floor(Math.random() * 3)
+
+  if (randomNumber === 0) {
+    computerChoice = 'rock'
+  }
+
+  if (randomNumber === 1) {
+    computerChoice = 'scissors'
+  }
+
+  if (randomNumber === 2) {
+    computerChoice = 'paper'
+  }
+
+  computerMove.innerHTML = computerChoice;
+}
+
+/** show result */
 function showResult() {
-    if (computerChoice === playerChoice) {
-        results = 'Draw!'
-    }
+  if (computerChoice === playerChoice) {
+    results = 'Draw!'
+  }
 
-    if (computerChoice === 'scissors' && userChoice === "paper") {
-        results = 'You lose!'
-      }
-      if (computerChoice === 'scissors' && userChoice === "rock") {
-        results = 'You win!'
-      }
+  if (computerChoice === 'scissors' && playerChoice === "paper") {
+    results = 'You lose!'
+  }
+  if (computerChoice === 'scissors' && playerChoice === "rock") {
+    results = 'You win!'
+  }
 
-      if (computerChoice === 'rock' && userChoice === "paper") {
-        results = 'You win!'
-      }
-      if (computerChoice === 'rock' && userChoice === "scissors") {
-        results = 'You lose!'
-      }
-      if (computerChoice === 'paper' && userChoice === "scissors") {
-        results = 'You lose!'
-      }
-      if (computerChoice === 'paper' && userChoice === "rock") {
-        results = 'You win!'
-      }
+  if (computerChoice === 'rock' && playerChoice=== "paper") {
+    results = 'You win!'
+  }
+  if (computerChoice === 'rock' && playerChoice === "scissors") {
+    results = 'You lose!'
+  }
+  if (computerChoice === 'paper' && playerChoice === "scissors") {
+    results = 'You lose!'
+  }
+  if (computerChoice === 'paper' && playerChoice === "rock") {
+    results = 'You win!'
+  }
 
-    resultDisplay.innerHTML = results /*it doesn't show! to be fixed!*/
-
+  resultDisplay.innerHTML = results;
 }
 
 
 /*-----------------------------------------------third game-----------------------------------------------*/
-var playgroundC = document.getElementById('playground-c'); 
+var playgroundC = document.getElementById('playground-c');
 var ball = document.getElementById('ball');
 
 var wall = document.getElementById('wall');
@@ -113,38 +111,37 @@ var crater = document.getElementById('crater');
 
 
 /** move the ball to the right */
-function moveRight(){
+function moveRight() {
   var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));
-  if(left<470){
+  if (left < 470) {
     ball.style.left = left + 2 + "px";
   }
-      
-  
+
+
 }
 
 /** move the ball to the left */
-function moveLeft(){
+function moveLeft() {
   var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));
-  if(left>0){
+  if (left > 0) {
     ball.style.left = left - 2 + "px";
   }
-        
-  
+
+
 }
 
 document.addEventListener("keydown", event => {
-  
-  if(event.key==="ArrowLeft"){
-      interval = setInterval(moveLeft, 1);
+
+  if (event.key === "ArrowLeft") {
+    interval = setInterval(moveLeft, 1);
   }
-  if(event.key==="ArrowRight"){
-      interval = setInterval(moveRight, 1);
+  if (event.key === "ArrowRight") {
+    interval = setInterval(moveRight, 1);
   }
 
 });
 
 /*stop the ball moving*/
-document.addEventListener('keyup', event =>{
+document.addEventListener('keyup', event => {
   clearInterval(interval);
 });
-
