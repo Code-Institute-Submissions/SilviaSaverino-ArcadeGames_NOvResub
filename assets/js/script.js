@@ -105,6 +105,11 @@ function showResult() {
 var playgroundC = document.getElementById('playground-c'); 
 var ball = document.getElementById('ball');
 
+var wall = document.getElementById('wall');
+var crater = document.getElementById('crater');
+
+
+
 /** move the ball to the right */
 function moveRight(){
   var left = parseInt(window.getComputedStyle(ball).getPropertyValue("left"));

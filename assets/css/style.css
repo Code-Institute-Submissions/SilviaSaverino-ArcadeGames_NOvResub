@@ -148,7 +148,27 @@ button a {
     border-radius: 50%;
     position: relative;
     background-color: blue;
-    top: 50px;
+    top: 30px;
     left: 220px;
     z-index: 1;
+}
+
+#wall {
+    width: 500px;
+    height: 10px;
+    border: 10px green solid;
+    position: relative;
+    top: 30px;
+    
+}
+
+#crater {
+    width: 32px;
+    height: 10px;
+    border: 10px pink solid;
+    position: retalive;
+    top: 30px;
+    z-index: 1;
+    
+    
 }
