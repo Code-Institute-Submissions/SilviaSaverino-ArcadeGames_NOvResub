@@ -150,3 +150,8 @@ document.addEventListener('keyup', event => {
   clearInterval(interval);
   both=0;
 });
+
+
+/*create more craters*/
+var random = Math.floor(Math.random() * 470) /*width of the playground - width of the ball*/
+crater.style.left = random + 'px'; /*its position should be random on every reload ---------------------> to be fixed*/
