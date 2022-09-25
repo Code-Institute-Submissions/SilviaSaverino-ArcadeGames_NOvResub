@@ -108,7 +108,7 @@ var ball = document.getElementById('ball');
 var wall = document.getElementById('wall');
 var crater = document.getElementById('crater');
 
-
+var both = 0;
 
 /** move the ball to the right */
 function moveRight() {
@@ -131,12 +131,16 @@ function moveLeft() {
 }
 
 document.addEventListener("keydown", event => {
-
-  if (event.key === "ArrowLeft") {
-    interval = setInterval(moveLeft, 1);
-  }
-  if (event.key === "ArrowRight") {
-    interval = setInterval(moveRight, 1);
+  /*avoid pressing left and right together*/
+  if (both==0) {
+    both++;
+    /*moving the ball left and right*/
+    if (event.key === "ArrowLeft") {
+      interval = setInterval(moveLeft, 1);
+    }
+    if (event.key === "ArrowRight") {
+      interval = setInterval(moveRight, 1);
+    }
   }
 
 });
@@ -144,4 +148,5 @@ document.addEventListener("keydown", event => {
 /*stop the ball moving*/
 document.addEventListener('keyup', event => {
   clearInterval(interval);
+  both=0;
 });
