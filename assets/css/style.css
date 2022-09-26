@@ -157,7 +157,7 @@ button a {
     background-image: 'transparent';
     position: relative;
     top: 395px;
-    left: 475px;
+    left: 450px;
     /* animation: speeding 2s infinite; */
 }
 
@@ -182,7 +182,7 @@ button a {
   
 @keyframes speeding {
     0% {
-        left: 475px;
+        left: 450px;
         top: 395px;
     }
 
@@ -190,7 +190,7 @@ button a {
     50% {background-color: green; left:239px; top:425px;}
     75% {background-color:lightblue; left: 121px; top:425px;}*/
     100% {
-        left: -0px;
+        left: 0px;
         top: 395px;
     }
 

@@ -34,9 +34,12 @@ var checkCollision = setInterval(function () {
   var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue('left'));
 
   if (obstacleLeft < 60 && obstacleLeft > 30 && !player.classList.contains('up')) {
-    obstacle.style.animation = 'none';
-    obstacle.style.display = 'none';
-    alert('collision');
+    obstacle.classList.remove('startG1');
+    // obstacle.style.display = 'none';
+    
+    startBtn.textContent = 'You lose. Retry!';
+    startBtn.hidden = false;
+    document.removeEventListener('click', jump);
   }
 
 
