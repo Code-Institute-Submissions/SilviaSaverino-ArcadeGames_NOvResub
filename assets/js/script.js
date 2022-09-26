@@ -12,9 +12,6 @@ startBtn.addEventListener('click', () => {
   }, 50);
 });
 
-/*const playerHeight = 50;
-const playerWidth = 30;*/
-
 function startGame() {
   obstacle.classList.add('startG1');
 }
