@@ -69,7 +69,6 @@ button {
     background-color: grey;
     height: 50px;
     width: 400px;
-    border-radius: ;
 }
 
 button a {
@@ -166,8 +165,21 @@ button a {
     animation: speeding 2s infinite;
 }
 
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
-
+  #startBtn {   
+    background-color: rgba(81, 0, 255, 0.69);
+    color: yellow;
+    font-family: Chakra Petch, sans-serif, helvetica;
+    letter-spacing: 5px;
+}
+  
 @keyframes speeding {
     0% {
         left: 475px;

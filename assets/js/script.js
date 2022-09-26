@@ -4,6 +4,8 @@ const startBtn = document.getElementById('startBtn');
 
 startBtn.addEventListener('click', () => {
   startGame();
+  startBtn.hidden = true; /*stop displaying start button after click*/
+  
   /*avoids starting the game and jumping at the same time using a setTimeout delay*/
   setTimeout(() => {
     document.addEventListener('click', jump);
