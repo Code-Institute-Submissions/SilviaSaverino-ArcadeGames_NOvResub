@@ -8,6 +8,8 @@
 
 a {
     text-decoration: none;
+   /* color: rgba(224, 51, 236, 255);*/
+    color: rgba(255, 255, 0, 0.841);
 }
 
 
@@ -19,7 +21,8 @@ header {
 
 #logo{
     font-family: Chakra Petch, sans-serif, helvetica;
-    font-size: 335%;
+    font-size: 325%;
+    letter-spacing: 5px;
     color: rgba(224, 51, 236, 255);
     text-align: center;
 }
@@ -44,7 +47,6 @@ footer {
 
 #social li {
     display: inline;
-    color: rgba(224, 51, 236, 255);
     font-size: 185%;
     margin: 15px;
     margin-left: 30px;   
@@ -57,7 +59,7 @@ footer {
 #homepage-box {
     height: 500px;
     width: 500px;
-    background-color: rgba(29, 48, 133, 255);
+    background-color: rgba(101, 15, 139, 0.8);
     border: 2px solid black;
     margin: 30px;
 }
@@ -81,8 +83,10 @@ button a {
 }
 
 .button-distance button {
-    background-color: rgba(199, 164, 102, 255);
-    color: rgba(44, 114, 244, 255)
+    background-color: rgba(81, 0, 255, 0.69);
+    color: yellow;
+    font-family: Chakra Petch, sans-serif, helvetica;
+    letter-spacing: 5px;
 }
 
 /*LEFT AND RIGHT DIVS*/
