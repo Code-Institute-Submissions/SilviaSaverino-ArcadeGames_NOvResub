@@ -1,6 +1,9 @@
-const computerMove = document.getElementById('computer-move');
-const playerMove = document.getElementById('player-move');
+// const computerMove = document.getElementById('computer-move');
+// const playerMove = document.getElementById('player-move');
 const resultDisplay = document.getElementById('result');
+
+const computerMoveImg = document.getElementById('computerMove');
+const playerMoveImg = document.getElementById('playerMove');
 
 let playerChoice;
 let computerChoice;
@@ -10,7 +13,17 @@ const possibleOptions = document.querySelectorAll('button');
 
 possibleOptions.forEach(possibleOption => possibleOption.addEventListener('click', (e) => {
   playerChoice = e.target.id
-  playerMove.innerHTML = playerChoice
+
+  if (playerChoice === 'scissors')
+      playerMoveImg.src = 'assets/images/scissors2.png';
+    
+  if (playerChoice === 'paper')
+      playerMoveImg.src = 'assets/images/paper2.png';
+  
+  if (playerChoice === 'rock')
+      playerMoveImg.src = 'assets/images/rock2.png';
+
+      //   playerMove.innerHTML = playerChoice
   generateComputerMove()
   showResult()
 }));
@@ -22,14 +35,17 @@ function generateComputerMove() {
 
   if (randomNumber === 0) {
     computerChoice = 'rock'
+    computerMoveImg.src = 'assets/images/rock2.png';
   }
 
   if (randomNumber === 1) {
     computerChoice = 'scissors'
+    computerMoveImg.src = 'assets/images/scissors2.png';
   }
 
   if (randomNumber === 2) {
     computerChoice = 'paper'
+    computerMoveImg.src = 'assets/images/paper2.png';
   }
 
   computerMove.innerHTML = computerChoice;
