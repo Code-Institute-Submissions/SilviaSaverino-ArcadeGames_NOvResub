@@ -18,6 +18,9 @@ header {
     background-color: rgb(55, 1, 79);
     height: 75px;
 }
+.header-link {
+    margin-left: 20px; margin-right: 20px;
+}
 
 #logo{
     font-family: Chakra Petch, sans-serif, helvetica;
@@ -51,6 +54,12 @@ footer {
     margin: 15px;
     margin-left: 30px;   
 }
+
+.margin {
+    margin-top:10px;
+}
+
+
 
 
 
@@ -294,6 +303,7 @@ button a {
     height: 500px;
     border: 2px black solid;
     background-image: url(../images/background3.jpg);
+    margin: 30px;
 }
 
 #ball {
@@ -322,9 +332,33 @@ button a {
     width: 32px;
     height: 10px;
     border: 10px rgba(219, 192, 255, 0.499) solid;
-    position: retalive;
-    top: 30px;
-    margin-top: -10px;
-
-
+    position: relative;
+    top: -10px;
 }
+
+/*media query*/
+
+@media screen and (max-width: 1200px) {
+
+    .img-container {
+        max-width: 100%
+    }
+}
+
+/*for medium screen sizes - from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+
+    .img-container {
+        max-width: 100%;
+    }
+}
+
+/*for small screen sizes - from 450px wide and down*/
+
+@media screen and (max-width: 450px) {
+
+    .img-container {
+        max-width: 100%;
+    }
+} 
