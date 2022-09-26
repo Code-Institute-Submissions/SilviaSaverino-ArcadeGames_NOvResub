@@ -34,11 +34,14 @@ var checkCollision = setInterval(function () {
   var obstacleLeft = parseInt(window.getComputedStyle(obstacle).getPropertyValue('left'));
 
   if (obstacleLeft < 60 && obstacleLeft > 30 && !player.classList.contains('up')) {
+    /*stop the monkey from running across the playground*/
     obstacle.classList.remove('startG1');
-    // obstacle.style.display = 'none';
     
-    startBtn.textContent = 'You lose. Retry!';
+    
+    /* display result on collision and let the user start the game again*/ 
+    startBtn.textContent = 'You lost! Play again?';
     startBtn.hidden = false;
+    /*avoid jumping on click once the game restart*/
     document.removeEventListener('click', jump);
   }
 
