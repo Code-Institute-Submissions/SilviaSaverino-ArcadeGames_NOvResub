@@ -203,6 +203,7 @@ button a {
     background-image: url(../images/background-game1.jpg);
     background-repeat: none;
     background-size: contain;
+    margin: 30px;
 }
 
 .up {
@@ -217,6 +218,7 @@ button a {
     background-image: url(../images/background2.jpg);
     background-repeat: none;
     background-size: contain;
+    margin: 30px;
 
 }
 
@@ -285,26 +287,6 @@ button a {
 }
 
 
-
-
-
-/*
-
-#computer-move {
-    color: red;
-} --------------------------------------------> not sure how to display this underneath
-
-.game2-button button{
-    background-color: pink;
-    width: 100px;
-    margin: 25px;
-    margin-top: 150px;
-  }
-
-  .computer-vs-player {
-    background-color: aliceblue;
-  }
-*/
 /*------------------------------------------------------third game-----------------------------------------------*/
 
 #playground-c {

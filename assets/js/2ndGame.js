@@ -1,5 +1,3 @@
-// const computerMove = document.getElementById('computer-move');
-// const playerMove = document.getElementById('player-move');
 const resultDisplay = document.getElementById('result');
 
 const computerMoveImg = document.getElementById('computerMove');
@@ -23,7 +21,6 @@ possibleOptions.forEach(possibleOption => possibleOption.addEventListener('click
   if (playerChoice === 'rock')
       playerMoveImg.src = 'assets/images/rock2.png';
 
-      //   playerMove.innerHTML = playerChoice
   generateComputerMove()
   showResult()
 }));
