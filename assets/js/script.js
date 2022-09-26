@@ -2,8 +2,13 @@ const player = document.getElementById('dd-player');
 const obstacle = document.getElementById('dd-obstacle');
 const startBtn = document.getElementById('startBtn');
 
-startBtn.addEventListener('click', startGame);
-
+startBtn.addEventListener('click', () => {
+  startGame();
+  /*avoids starting the game and jumping at the same time using a setTimeout delay*/
+  setTimeout(() => {
+    document.addEventListener('click', jump);
+  }, 50);
+});
 
 /*const playerHeight = 50;
 const playerWidth = 30;*/
