@@ -159,8 +159,14 @@ button a {
     position: relative;
     top: 395px;
     left: 475px;
+    /* animation: speeding 2s infinite; */
+}
+
+.startG1 {
     animation: speeding 2s infinite;
 }
+
+
 
 @keyframes speeding {
     0% {

@@ -1,7 +1,16 @@
 const player = document.getElementById('dd-player');
 const obstacle = document.getElementById('dd-obstacle');
+const startBtn = document.getElementById('startBtn');
+
+startBtn.addEventListener('click', startGame);
+
+
 /*const playerHeight = 50;
 const playerWidth = 30;*/
+
+function startGame() {
+  obstacle.classList.add('startG1');
+}
 
 /**makes the character jump*/
 function jump() {
