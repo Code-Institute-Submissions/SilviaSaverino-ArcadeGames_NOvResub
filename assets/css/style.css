@@ -8,20 +8,11 @@
 
 a {
     text-decoration: none;
-   /* color: rgba(224, 51, 236, 255);*/
     color: rgba(255, 255, 0, 0.841);
 }
 
 
 /*header*/
-header {
-    background-color: rgb(55, 1, 79);
-    height: 75px;
-}
-.header-link {
-    margin-left: 20px; margin-right: 20px;
-}
-
 #logo{
     font-family: Chakra Petch, sans-serif, helvetica;
     font-size: 325%;
@@ -39,20 +30,33 @@ header {
     text-decoration: none;
 }
 
-/*body*/
-body {
-    background-image: url(../images/background.jpg);}
-
-/*footer*/
-footer {
+header {
     background-color: rgb(55, 1, 79);
+    height: 75px;
 }
 
+.header-link {
+    margin-left: 20px; margin-right: 20px;
+}
+
+
+
+
+/*body*/
+body {
+    background-image: url(../images/background.jpg);
+}
+
+/*footer*/
 #social li {
     display: inline;
     font-size: 185%;
     margin: 15px;
     margin-left: 30px;   
+}
+
+footer {
+    background-color: rgb(55, 1, 79);
 }
 
 .margin {
@@ -73,16 +77,10 @@ footer {
     margin: 30px;
 }
 
-/*home page button style*/
+/*button style*/
 button {
-    background-color: grey;
     height: 50px;
     width: 400px;
-}
-
-button a {
-    color: black;
-    font-size: 30px;
 }
 
 .button-distance {
@@ -97,44 +95,7 @@ button a {
     letter-spacing: 5px;
 }
 
-/*LEFT AND RIGHT DIVS*/
-
-
-
-.left-div {
-    text-align: center;
-}
-
-.left-div a {
-    width: 130px;
-    height: 130px;
-    position: absolute;
-    top: 40%;
-    font-size: 60px;
-    color: rgb(224, 51, 236);
-    border: 3px solid yellow;
-    border-radius: 50%;
-    background-color: rgba(98, 0, 255, 0.416);
-}
-
-.right-div {
-    text-align: center;
-}
-
-.right-div a {
-    width: 130px;
-    height: 130px;
-    position: absolute;
-    top: 40%;
-    font-size: 60px;
-    color: rgb(224, 51, 236);
-    border: 3px solid yellow;
-    border-radius: 50%;
-    background-color: rgba(98, 0, 255, 0.416);
-}
-
-
-/*--------------------------------------------------------------first game----------------------------------------*/
+/*---------------------------------------------------------first game - Goat&Monkey----------------------------------------*/
 #dd-player {
     width: 30px;
     height: 50px;
@@ -144,6 +105,57 @@ button a {
     left: 30px;
 }
 
+#dd-obstacle {
+    width: 25px;
+    height: 25px;
+    background-image: 'transparent';
+    position: relative;
+    top: 395px;
+    left: 450px;
+}
+
+#startBtn {   
+    background-color: rgba(81, 0, 255, 0.69);
+    color: yellow;
+    font-family: Chakra Petch, sans-serif, helvetica;
+    letter-spacing: 5px;
+}
+
+.startG1 {
+    animation: speeding 2s infinite;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.playground {
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    background-image: url(../images/background-game1.jpg);
+    background-repeat: none;
+    background-size: contain;
+    margin: 30px;
+}
+
+.up {
+    animation: jump 1s;
+}
+  
+@keyframes speeding {
+    0% {
+        left: 450px;
+        top: 395px;
+    }
+    100% {
+        left: 0px;
+        top: 395px;
+    }
+}
 
 @keyframes jump {
     0% {
@@ -159,98 +171,7 @@ button a {
     }
 }
 
-#dd-obstacle {
-    width: 25px;
-    height: 25px;
-    /* image: url(../images/obstacle-game1.png);  */
-    background-image: 'transparent';
-    position: relative;
-    top: 395px;
-    left: 450px;
-    /* animation: speeding 2s infinite; */
-}
-
-.startG1 {
-    animation: speeding 2s infinite;
-}
-
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
-  #startBtn {   
-    background-color: rgba(81, 0, 255, 0.69);
-    color: yellow;
-    font-family: Chakra Petch, sans-serif, helvetica;
-    letter-spacing: 5px;
-}
-  
-@keyframes speeding {
-    0% {
-        left: 450px;
-        top: 395px;
-    }
-
-    /*  25% {background-color:greenyellow; left:357px; top:425px;}
-    50% {background-color: green; left:239px; top:425px;}
-    75% {background-color:lightblue; left: 121px; top:425px;}*/
-    100% {
-        left: 0px;
-        top: 395px;
-    }
-
-}
-
-.playground {
-    width: 500px;
-    height: 500px;
-    border: 2px black solid;
-    background-image: url(../images/background-game1.jpg);
-    background-repeat: none;
-    background-size: contain;
-    margin: 30px;
-}
-
-.up {
-    animation: jump 1s;
-}
-
 /*--------------------------------------------------Second Game - Rock paper scissors game2 ----------------------------*/
-.playground-b {
-    width: 500px;
-    height: 500px;
-    border: 2px black solid;
-    background-image: url(../images/background2.jpg);
-    background-repeat: none;
-    background-size: contain;
-    margin: 30px;
-
-}
-
-.column2 {
-    float: left;
-    width: 50%;
-}
-
-
-.column3 {
-    float: left;
-    width: 33.33%;
-
-
-}
-
-.game2-button button {
-    height: 50px;
-    width: 100%;
-    background-color: transparent;
-    margin-top: 100px;
-}
-
 #rock {
     width: 100px;
     height: 100px;
@@ -283,6 +204,17 @@ button a {
     margin-top: 265px;
 }
 
+.playground-b {
+    width: 500px;
+    height: 500px;
+    border: 2px black solid;
+    background-image: url(../images/background2.jpg);
+    background-repeat: none;
+    background-size: contain;
+    margin: 30px;
+
+}
+
 .move {
     background-color: rgba(81, 0, 255, 0.69);
     color: yellow;
@@ -295,8 +227,25 @@ button a {
     clear: both;
 }
 
+.column2 {
+    float: left;
+    width: 50%;
+}
 
-/*------------------------------------------------------third game-----------------------------------------------*/
+.column3 {
+    float: left;
+    width: 33.33%;
+}
+
+.game2-button button {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 100px;
+}
+
+
+/*------------------------------------------------------third game-Falling Star-----------------------------------------------*/
 
 #playground-c {
     width: 500px;
