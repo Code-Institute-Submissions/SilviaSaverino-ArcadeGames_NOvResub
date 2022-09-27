@@ -39,7 +39,7 @@ p {
 
 header {
     background-color: rgb(55, 1, 79);
-    height: 100px;
+    /* height: 100px; */
 }
 
 .header-link {
@@ -57,7 +57,7 @@ body {
     display: inline;
     font-size: 185%;
     margin: 15px;
-    margin-left: 30px;   
+    /* margin-left: 30px;    */
 }
 
 footer {
@@ -70,8 +70,9 @@ footer {
 
 /*---------------------------------------------------home page style------------------------------------------------*/
 #homepage-box {
+    width: 90%;
     height: 500px;
-    width: 500px;
+    max-width: 500px;
     background-color: rgba(101, 15, 139, 0.8);
     border: 2px solid black;
     margin: 30px;
@@ -80,7 +81,8 @@ footer {
 /*button style*/
 button {    
     height: 50px;
-    width: 400px;
+    max-width: 400px;
+    width: 89%;
 }
 
 .button-distance {
@@ -285,3 +287,30 @@ button {
     top: -10px;
 }
 
+
+/*media query*/
+
+@media screen and (max-width: 1200px) {
+
+    .img-container {
+        max-width: 100%
+    }
+}
+
+/*for medium screen sizes - from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+
+    .img-container {
+        max-width: 100%;
+    }
+}
+
+/*for small screen sizes - from 450px wide and down*/
+
+@media screen and (max-width: 450px) {
+
+    .img-container {
+        max-width: 100%;
+    }
+} 
