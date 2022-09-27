@@ -241,6 +241,17 @@ The Color Contrast Accessibility Validator was used to test for colour contrast 
 ![image of Color Contrast validator with a positive response](/docs/images/color-contrast.png)
 
 ### Known Bugs and issues
+The third game - Falling Star - is simply out of order. 
+
+Sadly, way too many bug fixing had preventing me to finish with the Javascript code to make it work.
+
+HOWEVER! as this website has been created for learning purposes and to have fun whilst learning how to use Javascript language, and discover other few bits and bots of CSS and HTML, i've come to terms with myself and decided that the grade is not that much of a deal, so I've left the project as it is right now -just a button with an 'out of order message'.
+
+![screenshot of 'out of order' button in game 3](docs/img/out-of-order.png)
+
+For those of you wondering: I am very proud of what i've achieded so far.
+
+- The music chosen for the games,although still in the audio folder, had been removed, as the site was super-slow and I don't have the right knowledge yet to fix this issue. To the few still reading this file, feel free to play in the background to fully experience what i originally wanted to provide the users with. Enjoy!
 
 #   Deployment
 
