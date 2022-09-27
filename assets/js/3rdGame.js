@@ -26,7 +26,7 @@ function moveLeft() {
 
 document.addEventListener("keydown", event => {
   /*avoid pressing left and right together*/
-  if (both==0) {
+  if (both == 0) {
     both++;
     /*moving the ball left and right*/
     if (event.key === "ArrowLeft") {
@@ -41,7 +41,7 @@ document.addEventListener("keydown", event => {
 /*stop the ball moving*/
 document.addEventListener('keyup', event => {
   clearInterval(interval);
-  both=0;
+  both = 0;
 });
 
 
@@ -49,14 +49,32 @@ document.addEventListener('keyup', event => {
 /*var random = Math.floor(Math.random() * 470) /*width of the playground - width of the ball*/
 /*crater.style.left = random + 'px'; /*create a random position of the crater*/
 /** creates move walls */
-setInterval (function(){
+
+
+
+
+
+setInterval(function () {
   /*generate more craters*/
   var random = Math.floor(Math.random() * 470) /*width of the playground - width of the ball*/
-crater.style.left = random + 'px'; /*create a random position of the crater*/
+  crater.style.left = random + 'px'; /*create a random position of the crater*/
 
-/*add counter to keep track of how many wall and craters are*/
-document.getElementById('wall'+counter);
-document.getElementById('crater'+counter);
-counter++;
+/*----------------DOESN'T WORK YET ------------------------*/
+  /*assign different positions to walls */
+  var lastWall = document.getElementById('wall' + (counter - 1));
+  var lastCrater = document.getElementById('crater' + (counter - 1));
+  if(counter>0){
+    var lastWallTop = parseInt(window.getComputedStyle(lastWall).getPropertyValue("top"));
+    var lastCraterTop = parseInt(window.getComputedStyle(lastCrater).getPropertyValue("top"));
+  }
 
-},1);
+ 
+  /*add counter to keep track of how many wall and craters are*/
+  document.getElementById('wall' + counter);
+  document.getElementById('crater' + counter);
+  wall.style.top = lastWallTop + 100 + 'px';
+  crater.style.top = lastCraterTop + 100 + 'px';
+
+  counter++;
+
+}, 1);
