@@ -81,8 +81,8 @@ The above primary font had been selected from the vast catalog offered by [Googl
 
 ![Classic Games Logo](/docs/img/logo.png)
 
-##  Structure
-### Homepage:
+#  Structure
+## Homepage:
 
 The site homepage besides the logo and the footer, features a small selection of games the user can choose from.
 
@@ -90,67 +90,154 @@ Displayed centrally on the screen and with a color palette of pinks, purples and
 
 ![screenshot of homepage](/docs/img/homepage-game-selection.png)
 
-###1st Game - Goat & Monkey:
+## 1st Game - Goat & Monkey:
 
 By clicking on the first game option the user will have the possibility to play an interpretation of the classic game developed by Google [Dinosaur Game](https://en.wikipedia.org/wiki/Dinosaur_Game).
 
 - The user will be able to control the character:
 a simple goat
+
 ![1st game character](/docs/img/goat.png)
 
 by left-clicking on the mouse, to let it jump and avoid the obstacle, in this scenario: a monkey on an electric-scooter.
+
 ![1st game obstacle](/docs/img/monkey.png)
 
 - The game won't start until the user will click on the start button that appears centrally on the playground as soon as the game is opened.
 
-![screenshot of start button](/docs/img/star.png)
+![screenshot of start button](/docs/img/start.png)
 
 - In the possible instance that the player won't be quick enought to avoid the monkey, a collision will happen and the game will be over. Yet, the user will be able to choose to play again by clicking on the button that appears after collision.
+
 ![screenshot of game-over/play again option](/docs/img/game-over.png)
 
 - Should the user decide that she/he would like to play a different game, a simple nav bar had been provided in the header, to let the user easily navigate the website. Links will change depending on which game the user will be playing.
+
 ![screenshot of nav bar from game1](/docs/img/navigation-bar-g1.png)
+
 ![screenshot of nav bar from game2](/docs/img/navigation-bar-g2.png)
+
 ![screenshot of nav bar from game3](/docs/img/navigation-bar-g3.png)
 
+## 2nd Game - Rock, Paper, Scissors:
 
+A real classic of rock, paper, scissors game displaying relaxing colors and image of hands gestures (used in the game itself) in the background.
 
+![screenshot of 2nd game background](/docs/img/2nd-game-playground.png)
 
-## Start screen
+Here the user will be able to pick one of three possible options, displayed in a row, next to each other, and featuring the classic moves a player could play in this version of the game.
+(FUN FACT: in other versions, mainly the french one, the player of rock-paper-scissors can pick up to 5 hand gestures - follow this [Link](https://en.wikipedia.org/wiki/Rock_paper_scissors) to discover more!)
+
+![screenshot of rock-paper-scissors options](/docs/img/options.png)
+
+- The game will start as soon as the user will pick an option, letting automatically the computer choose its.
+
+![screenshot of game not started yet](/docs/img/choice-before.png)
+
+![screenshot of game started](/docs/img/choice-after.png)
+
+- Results will be displayed at the bottom of the playground, stating either of the three possible outcomes
+ - 1) Draw
+
+ ![screenshot of 'it's a draw' result](/docs/img/draw-result.png)
+
+ - 2) User win
+
+ ![screenshot of 'you win' result](/docs/img/you-win-result.png)
+
+ - 3) User lose
+
+ ![screenshot of 'you lose' result](/docs/img/you-lose-result.png)
+
+ In this version of the game, the user will be able to play as much as she/he wants.
+ In future versions, this game will feature a score section to display who is actually winning in a long run...
+
+ ## 3rd Game - Falling Star
+
+ Another reinterpretation (in terms of graphic) of a classic game. This version features as a character a little yellow start
+
+ ![screenshot of game3 character](/docs/img/star.png)
+
+ Set in a background featuring a starred universe
+
+ ![screenshot of game3 background](docs/img/game3-playground.png)
+
+ The player will have to move either left or right to let the start falling on the ''pavement'' underneath , by using the ''holes'' in the pavement itself. A visual colour difference will help the player identify the hole and goint towards that direction.
+
+ ![screenshot of wall&crater of game3](docs/img/wall%26crater.png)
+
+ - The game will end when the star will touch the top of the playground; if and when the user won't be fast enough to let its star fall down below, as the walls will be moving upwards towards the playground top. 
+ The 'Game over-play again' option will pop up should this happen.
+
 
 ## Visual and audio
 
+The different backgrounds used in this website should please the users and deliver a positive visual response.
+
+The three different soundtracks chosen and assign to the three games, should be catchy enough to let the user continue its positive experience. An option of pausing the music, or play without volue had been provided should the user prefers this way.
+
+
 ## Footer
 
+The footer had been kept simple and easy to locate. By maintaining the same colour palette used in the whole site; it displays favicon of the most knowns social platforms.
+
+![screenshot of footer](/docs/img/footer.png)
+
+The idea behind this is to create a sense of community where players can post about their scores (-to be added in future versions of each games-) and overall to stay up-to-date with new games release.
+
+# *Technologies Used*
+Many sites had been helping me clarify concepts to complete this project. Below a list:
+-   [W3Schools](https://www.w3schools.com/)
+    - Used to check html, ccs, and js , to have a good layout, style and find solutions to some bugs
+-	[Google Fonts](https://fonts.google.com/)
+	- Used to obtain the font used in this project
+-	[Font Awesome](https://fontawesome.com/)
+	- Used to obtain the social media icons used in the footer 
+-	[Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+-	[Bootstrap](https://getbootstrap.com/)
+	- Used to find a better layout, alignment of the elements and overall improve responsiveness
+-	[GitHub](https://github.com/)
+	- Used to store code for the project after being pushed.
+-	[Git](https://git-scm.com/)
+	- Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-	[Gitpod](https://www.gitpod.io/)
+	- Used as the development environment.
+-	[W3C Markup Validation Service](https://validator.w3.org/) 
+	- Used to validate all HTML code written and used in this webpage.
+-	[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+	- Used to validate all CSS code written and used in this webpage.
+-	[AmIResponsive](http://ami.responsivedesign.is/)
+	- Used to generate responsive image used in README file.
 
 
-#   Technology
-    
-##  Languages used
+### **Lighthouse**
 
-##  Frameworks, libraries & software used
+Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features.
+I am pleased my website has hitten more than 95% in all score.
 
-
-
-#    Testing
-
-##   Accessibility
+![]()
 
 
-##   Performance
+### **HTML and CSS Validation**
+
+After fixing some errors on both testing sites- maynli some typos but also some unnecessary sections in index.html or style elements in style.css , the site eventually passed the W3C Validation.
+
+![image of HTML positive validator results-home page](/docs/images/validator-index.png)
+![image of HTML positive validator results-gallery page](/docs/images/validator-gallery.png)
+![image of HTML positive validator results-get started page](/docs/images/validator-get-started.png)
+![image of HTML positive validator results-enquiry page](/docs/images/validator-submitted.png)
+
+![image of CSS positive validator results](/docs/images/css-validator.png)
 
 
-## Validation
+### **Color Contrast Validator**
+The initial color of logo content had poor Contrast Ratio of 3.52 with the background. So I changed it to a darker green and a darker orange, and i've also slightly changed the opacity of the background color. 
 
-### HTML
+The Color Contrast Accessibility Validator was used to test for colour contrast on the project.
+![image of Color Contrast validator with a positive response](/docs/images/color-contrast.png)
 
-### CSS
-
-### JavaScript 
-
-## Responsiveness
-
-##   Bugs/known issues
+### Known Bugs and issues
 
 #   Deployment
 
