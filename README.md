@@ -249,4 +249,13 @@ The Color Contrast Accessibility Validator was used to test for colour contrast 
 ##  Media
 ## Learning resources
 ##  Acknowledgements
+I firstly
+
+On a more personal note I will have to offer dinner on many people.
+- First of all my good friend Francesco Rubino, for patiently showing how to fix some bugs and supporting me in the final stage of the project itself.
+- My dearest ones Martina and Cosimo for their support and patience
+- The crazy amounts of blogger that took their time to post online tips on how to create some great code.
+
+
 ## Disclaimer
+This website is for learning purpose only, and had been created as a second project for Full Stack Coding course of CodeInstitute.

@@ -1,3 +1,5 @@
+
+/*let the user open the game page by clicking on the buttons*/
 const goatBtn    = document.getElementById('goatBtn');
 const rockBtn    = document.getElementById('rockBtn');
 const fallingBtn = document.getElementById('fallingBtn');
