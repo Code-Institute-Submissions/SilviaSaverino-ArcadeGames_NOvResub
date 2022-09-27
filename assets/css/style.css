@@ -214,6 +214,15 @@ button {
     margin-top: 265px;
 }
 
+#computer-move {
+    width: 100px; 
+    height: 100px;
+}
+
+#player-move {
+    width: 100px; 
+    height: 100px;
+}
 .playground-b {
     max-width: 500px;
     min-width: 350px;
@@ -253,6 +262,7 @@ button {
     background-color: transparent;
     margin-top: 100px;
 }
+
 
 
 /*------------------------------------------------------third game-Falling Star-----------------------------------------------*/
