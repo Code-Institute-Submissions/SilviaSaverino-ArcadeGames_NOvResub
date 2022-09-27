@@ -1,8 +1,11 @@
 var playgroundC = document.getElementById('playground-c');
 var ball = document.getElementById('ball');
 
-var wall = document.getElementById('wall');
-var crater = document.getElementById('crater');
+var wall = document.querySelector('#wall');
+var crater = document.querySelector('#crater');
+
+var wallTop = parseInt(window.getComputedStyle(wall).getPropertyValue("margin-top"));
+var craterTop = parseInt(window.getComputedStyle(crater).getPropertyValue("margin-top"));
 
 var both = 0;
 
@@ -44,37 +47,26 @@ document.addEventListener('keyup', event => {
   both = 0;
 });
 
+var random = Math.floor(Math.random() * 470) /*width of the playground - width of the ball*/
+crater.style.left = random + 'px'; /*create a random position of the crater*/
 
-/*create more craters*/
-/*var random = Math.floor(Math.random() * 470) /*width of the playground - width of the ball*/
-/*crater.style.left = random + 'px'; /*create a random position of the crater*/
-/** creates move walls */
+function createWall() {
+  ++counter;
 
+  var newWall = wall.cloneNode();
+  newWall.id = 'wall' + counter.toString();
+  wall.after(newWall);
 
+  var newCrater = crater.cloneNode();
+  newCrater.id = 'crater' + counter.toString();
+  newWall.appendChild(newCrater);
 
+  newWall.style.marginTop = wallTop + 10 * counter + 'px';
 
-
-setInterval(function () {
-  /*generate more craters*/
   var random = Math.floor(Math.random() * 470) /*width of the playground - width of the ball*/
-  crater.style.left = random + 'px'; /*create a random position of the crater*/
+  newCrater.style.left = random + 'px'; /*create a random position of the crater*/
+}
 
-/*----------------DOESN'T WORK YET ------------------------*/
-  /*assign different positions to walls */
-  var lastWall = document.getElementById('wall' + (counter - 1));
-  var lastCrater = document.getElementById('crater' + (counter - 1));
-  if(counter>0){
-    var lastWallTop = parseInt(window.getComputedStyle(lastWall).getPropertyValue("top"));
-    var lastCraterTop = parseInt(window.getComputedStyle(lastCrater).getPropertyValue("top"));
-  }
-
- 
-  /*add counter to keep track of how many wall and craters are*/
-  document.getElementById('wall' + counter);
-  document.getElementById('crater' + counter);
-  wall.style.top = lastWallTop + 100 + 'px';
-  crater.style.top = lastCraterTop + 100 + 'px';
-
-  counter++;
-
-}, 1);
+for (let index = 0; index < 5; index++) {
+  createWall();
+}

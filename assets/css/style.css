@@ -282,16 +282,15 @@ button {
     z-index: 1;
 }
 
-#wall {
+.wall-class {
     width: 500px;
     height: 10px;
     border: 10px rgba(63, 5, 170, 0.848) solid;
     position: relative;
-    top: 30px;
-
+    margin-top: 30px;
 }
 
-#crater {
+.crater-class {
     width: 32px;
     height: 10px;
     border: 10px rgba(219, 192, 255, 0.499) solid;
