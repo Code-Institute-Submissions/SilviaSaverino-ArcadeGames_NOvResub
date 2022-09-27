@@ -240,7 +240,6 @@ button {
 
 .column2 {
     float: left;
-    /* width: 50%; */
 }
 
 .column3 {
@@ -259,11 +258,15 @@ button {
 /*------------------------------------------------------third game-Falling Star-----------------------------------------------*/
 
 #playground-c {
-    width: 500px;
+    max-width: 500px;
+    min-width: 350px;
     height: 500px;
     border: 2px black solid;
     background-image: url(../images/background3.jpg);
-    margin: 30px;
+    background-size: contain;
+    margin: 10px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 #ball {
