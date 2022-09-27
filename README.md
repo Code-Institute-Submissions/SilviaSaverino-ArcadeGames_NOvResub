@@ -249,11 +249,12 @@ The Color Contrast Accessibility Validator was used to test for colour contrast 
 ##  Media
 ## Learning resources
 ##  Acknowledgements
-I firstly
+I firstly would like to acknowledge the two youtubers that inspire the game coding and overall the project itself.
+The first and third game
 
 On a more personal note I will have to offer dinner on many people.
 - First of all my good friend Francesco Rubino, for patiently showing how to fix some bugs and supporting me in the final stage of the project itself.
-- My dearest ones Martina and Cosimo for their support and patience
+- My dearest ones Martina and Cosimo for their support and patience.
 - The crazy amounts of blogger that took their time to post online tips on how to create some great code.
 
 

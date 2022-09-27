@@ -64,6 +64,10 @@ footer {
     background-color: rgb(55, 1, 79);
 }
 
+#footerUl {
+    padding-left: 0px;
+}
+
 .margin {
     margin-top:10px;
 }
