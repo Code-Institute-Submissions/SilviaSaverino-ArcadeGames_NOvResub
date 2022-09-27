@@ -11,6 +11,13 @@ a {
     color: rgba(255, 255, 0, 0.841);
 }
 
+p {
+    color: rgba(255, 255, 0, 0.841);
+    font-family: Chakra Petch, sans-serif, helvetica;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
 
 /*header*/
 #logo{
@@ -32,15 +39,13 @@ a {
 
 header {
     background-color: rgb(55, 1, 79);
-    height: 75px;
+    height: 100px;
 }
 
 .header-link {
-    margin-left: 20px; margin-right: 20px;
+    margin-left: 20px; 
+    margin-right: 20px;
 }
-
-
-
 
 /*body*/
 body {
@@ -63,11 +68,6 @@ footer {
     margin-top:10px;
 }
 
-
-
-
-
-
 /*---------------------------------------------------home page style------------------------------------------------*/
 #homepage-box {
     height: 500px;
@@ -78,7 +78,7 @@ footer {
 }
 
 /*button style*/
-button {
+button {    
     height: 50px;
     width: 400px;
 }
@@ -132,6 +132,7 @@ button {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .playground {
     width: 500px;
     height: 500px;
@@ -285,29 +286,3 @@ button {
     top: -10px;
 }
 
-/*media query*/
-
-@media screen and (max-width: 1200px) {
-
-    .img-container {
-        max-width: 100%
-    }
-}
-
-/*for medium screen sizes - from 950px wide and down*/
-
-@media screen and (max-width: 950px) {
-
-    .img-container {
-        max-width: 100%;
-    }
-}
-
-/*for small screen sizes - from 450px wide and down*/
-
-@media screen and (max-width: 450px) {
-
-    .img-container {
-        max-width: 100%;
-    }
-} 
