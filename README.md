@@ -214,8 +214,11 @@ Many sites had been helping me clarify concepts to complete this project. Below 
 ### **Lighthouse**
 
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features.
-I am pleased my website has hitten more than 95% in all score.
 
+Initially results were showing a performance of just 88% - due to the weight of the audio files chosen for each game.
+![screenshots of Lighthouse results](docs/img/lighthouse-before.png)
+
+I've decided that just a single soundtrack in the end should have been enough, and so increase the performance results up to ???
 ![]()
 
 
