@@ -215,14 +215,15 @@ button {
 }
 
 .playground-b {
-    width: 500px;
+    max-width: 500px;
+    min-width: 350px;
     height: 500px;
     border: 2px black solid;
     background-image: url(../images/background2.jpg);
-    background-repeat: no-repeat;
     background-size: contain;
-    margin: 30px;
-
+    margin: 10px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .move {
@@ -239,7 +240,7 @@ button {
 
 .column2 {
     float: left;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .column3 {
