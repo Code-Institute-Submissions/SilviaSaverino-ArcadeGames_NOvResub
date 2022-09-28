@@ -68,10 +68,10 @@ function showResult() {
     results = 'You lose!'
   }
   if (computerChoice === 'paper' && playerChoice === "scissors") {
-    results = 'You lose!'
+    results = 'You win!'
   }
   if (computerChoice === 'paper' && playerChoice === "rock") {
-    results = 'You win!'
+    results = 'You lose!'
   }
 
   resultDisplay.innerHTML = results;
