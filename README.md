@@ -218,8 +218,11 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 Initially results were showing a performance of just 88% - due to the weight of the audio files chosen for each game.
 ![screenshots of Lighthouse results](docs/img/lighthouse-before.png)
 
-I've decided that just a single soundtrack in the end should have been enough, and so increase the performance results up to ???
-![]()
+I've decided that just a single soundtrack in the end should have been enough, and so increase the performance results.
+![screenshots of Lighthouse results](docs/img/lighthouse-homepage.png)
+![screenshots of Lighthouse results](docs/img/light-house-1stGame.png)
+![screenshots of Lighthouse results](docs/img/lighthouse-game2.png)
+![screenshots of Lighthouse results](docs/img/lighthouse-game3.png)
 
 
 ### **HTML and CSS Validation**
