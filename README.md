@@ -257,6 +257,9 @@ For those of you wondering: I am very proud of what i've achieded so far.
 
 - The music chosen for the games,although still in the audio folder, had been removed, as the site was super-slow and I don't have the right knowledge yet to fix this issue. To the few still reading this file, feel free to play in the background to fully experience what i originally wanted to provide the users with. Enjoy!
 
+- Althought the HTML page ends right where the footer is, part of the main background image keeps on showing up underneath.
+![screenshot of part of the background showing underneath the HTML page](docs/img/knownbug.png)
+
 #   Credits
 ##  Code
 The content for this website was created by the owner with the only purpose of putting into practice what has been learnt so far in CodeInstitute course.
