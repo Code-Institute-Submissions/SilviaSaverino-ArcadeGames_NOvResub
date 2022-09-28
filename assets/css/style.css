@@ -39,7 +39,6 @@ p {
 
 header {
     background-color: rgb(55, 1, 79);
-    /* height: 100px; */
 }
 
 .header-link {
@@ -54,12 +53,15 @@ body {
     max-height: 100%;
 }
 
+.main-style {
+    max-height: 500vh;
+}
+
 /*footer*/
 #social li {
     display: inline;
     font-size: 185%;
     margin: 15px;
-    /* margin-left: 30px;    */
 }
 
 footer {
@@ -113,6 +115,11 @@ button {
     left: 30px;
 }
 
+#dd-player img {
+    width: 40px;
+    height: 65px;
+}
+
 #dd-obstacle {
     width: 25px;
     height: 25px;
@@ -120,6 +127,11 @@ button {
     position: relative;
     top: 395px;
     left: 450px;
+}
+
+#dd-obstacle img {
+    width: 40px;
+    height: 40px;
 }
 
 #startBtn {   
@@ -248,14 +260,14 @@ button {
     float: left;
     width: 33.33%;
 }
-
+#computerMove { width: 100px; height: 100px;}
 .game2-button button {
     height: 50px;
     width: 100%;
     background-color: transparent;
     margin-top: 100px;
 }
-
+#playerMove { width: 100px; height: 100px;}
 
 
 /*------------------------------------------------------third game-Falling Star-----------------------------------------------*/
