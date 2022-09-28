@@ -50,6 +50,8 @@ header {
 /*body*/
 body {
     background-image: url(../images/background.jpg);
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*footer*/
@@ -214,15 +216,6 @@ button {
     margin-top: 265px;
 }
 
-#computer-move {
-    width: 100px; 
-    height: 100px;
-}
-
-#player-move {
-    width: 100px; 
-    height: 100px;
-}
 .playground-b {
     max-width: 500px;
     min-width: 350px;
@@ -314,7 +307,8 @@ button {
 @media screen and (max-width: 1200px) {
 
     .img-container {
-        max-width: 100%
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
@@ -324,6 +318,7 @@ button {
 
     .img-container {
         max-width: 100%;
+        max-height: 100%;
     }
 }
 
@@ -333,5 +328,6 @@ button {
 
     .img-container {
         max-width: 100%;
+        max-height: 100%;
     }
 } 

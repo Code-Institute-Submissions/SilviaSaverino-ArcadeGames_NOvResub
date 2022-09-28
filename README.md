@@ -226,19 +226,20 @@ I've decided that just a single soundtrack in the end should have been enough, a
 
 After fixing some errors on both testing sites- maynli some typos but also some unnecessary sections in index.html or style elements in style.css , the site eventually passed the W3C Validation.
 
-![image of HTML positive validator results-home page](/docs/images/validator-index.png)
-![image of HTML positive validator results-gallery page](/docs/images/validator-gallery.png)
-![image of HTML positive validator results-get started page](/docs/images/validator-get-started.png)
-![image of HTML positive validator results-enquiry page](/docs/images/validator-submitted.png)
+![image of HTML positive validator results-home page](/docs/img/validator-index.png)
+![image of HTML positive validator results-3rd game](/docs/img/validator-game3.png)
 
-![image of CSS positive validator results](/docs/images/css-validator.png)
+![image of CSS positive validator results](/docs/img/css-validation.png)
 
 
 ### **Color Contrast Validator**
 The initial color of logo content had poor Contrast Ratio of 3.52 with the background. So I changed it to a darker green and a darker orange, and i've also slightly changed the opacity of the background color. 
 
 The Color Contrast Accessibility Validator was used to test for colour contrast on the project.
-![image of Color Contrast validator with a positive response](/docs/images/color-contrast.png)
+![image of Color Contrast validator with a positive response-index](/docs/img/color-contrast-validator.png)
+![image of Color Contrast validator with a positive response-1st Game](/docs/img/colorCr-1stGame.png)
+![image of Color Contrast validator with a positive response-2nd Game](/docs/img/colorCr-game2.png)
+![image of Color Contrast validator with a positive response-3rd Game](/docs/img/colorCr-game3.png)
 
 ### Known Bugs and issues
 The third game - Falling Star - is simply out of order. 
@@ -253,19 +254,30 @@ For those of you wondering: I am very proud of what i've achieded so far.
 
 - The music chosen for the games,although still in the audio folder, had been removed, as the site was super-slow and I don't have the right knowledge yet to fix this issue. To the few still reading this file, feel free to play in the background to fully experience what i originally wanted to provide the users with. Enjoy!
 
-#   Deployment
+- An inline CSS style had been added to some img element on game1 and game2 - When i transfer the property into the css file, the results are incorrect.
 
 #   Credits
 ##  Code
-##  Media
-## Learning resources
-##  Acknowledgements
-I firstly would like to acknowledge the two youtubers that inspire the game coding and overall the project itself.
-The first and third game
+The content for this website was created by the owner with the only purpose of putting into practice what has been learnt so far in CodeInstitute course.
+No games rules in this website is fruit of the owner imagination. Classic versions had been around for a long time. 
 
-On a more personal note I will have to offer dinner on many people.
+##  Acknowledgements
+I firstly would like to acknowledge the two youtubers that took their time to post some tutorial online.
+I couldn't have done it without studying what was been shown in their videos.
+ -Shawn Beaton and his channel 
+
+ [KnifeCircus Youtube channel](https://www.youtube.com/c/KnifeCircus)
+
+ -Ania Kubow and her channel
+
+ [Ania Kubow Youtube channel](https://www.youtube.com/c/AniaKub%C3%B3w)
+
+On a more personal note I will have to offer dinner to many friends of mine:
+
 - First of all my good friend Francesco Rubino, for patiently showing how to fix some bugs and supporting me in the final stage of the project itself.
+
 - My dearest ones Martina and Cosimo for their support and patience.
+
 - The crazy amounts of blogger that took their time to post online tips on how to create some great code.
 
 
