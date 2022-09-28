@@ -186,7 +186,7 @@ The footer had been kept simple and easy to locate. By maintaining the same colo
 The idea behind this is to create a sense of community where players can post about their scores (-to be added in future versions of each games-) and overall to stay up-to-date with new games release.
 
 # *Technologies Used*
-Many sites had been helping me clarify concepts to complete this project. Below a list:
+Many sites had been helping me clarify concepts to complete this project. Such as:
 -   [W3Schools](https://www.w3schools.com/)
     - Used to check html, ccs, and js , to have a good layout, style and find solutions to some bugs
 -	[Google Fonts](https://fonts.google.com/)
@@ -288,6 +288,7 @@ On a more personal note I will have to offer dinner to many friends of mine:
 
 - The crazy amounts of blogger that took their time to post online tips on how to create some great code.
 
+- Harry Dillon from CodeInstitute whom helped me figured out how to fix a few things.
 
 ## Disclaimer
 This website is for learning purpose only, and had been created as a second project for Full Stack Coding course of CodeInstitute.
