@@ -228,6 +228,19 @@ button {
     margin-top: 265px;
 }
 
+#computerMove { 
+    width: 100px; 
+    height: 100px;
+}
+
+#playerMove { 
+    width: 100px; 
+    height: 100px;}
+
+.accessibility {
+    color: purple;
+}
+    
 .playground-b {
     max-width: 500px;
     min-width: 350px;
@@ -260,14 +273,15 @@ button {
     float: left;
     width: 33.33%;
 }
-#computerMove { width: 100px; height: 100px;}
+
+
+
 .game2-button button {
     height: 50px;
     width: 100%;
     background-color: transparent;
     margin-top: 100px;
 }
-#playerMove { width: 100px; height: 100px;}
 
 
 /*------------------------------------------------------third game-Falling Star-----------------------------------------------*/
