@@ -230,6 +230,7 @@ I've decided that just a single soundtrack in the end should have been enough, a
 After fixing some errors on both testing sites- maynli some typos but also some unnecessary sections in index.html or style elements in style.css , the site eventually passed the W3C Validation.
 
 ![image of HTML positive validator results-home page](/docs/img/validator-index.png)
+![image of HTML positive validator results-1st game](/docs/img/htmlCheker-game1.png)
 ![image of HTML positive validator results-3rd game](/docs/img/validator-game3.png)
 
 ![image of CSS positive validator results](/docs/img/css-validation.png)
@@ -259,6 +260,9 @@ For those of you wondering: I am very proud of what i've achieded so far.
 
 - Althought the HTML page ends right where the footer is, part of the main background image keeps on showing up underneath.
 ![screenshot of part of the background showing underneath the HTML page](docs/img/knownbug.png)
+
+- There are two empty 'src' attributes in game2. The image had been uploaded through the css file
+![screenshot of known errors in html code in game2](docs/img/known-issue-game2.png)
 
 #   Credits
 ##  Code
