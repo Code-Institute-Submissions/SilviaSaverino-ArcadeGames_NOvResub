@@ -62,12 +62,14 @@ body {
     display: inline;
     font-size: 185%;
     margin: 15px;
-}
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+  }
 
 footer {
     background-color: rgb(55, 1, 79);
     position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -75,6 +77,8 @@ footer {
 
 #footerUl {
     padding-left: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .margin {
