@@ -66,6 +66,9 @@ body {
 
 footer {
     background-color: rgb(55, 1, 79);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
     
