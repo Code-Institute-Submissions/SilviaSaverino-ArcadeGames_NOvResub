@@ -167,6 +167,7 @@ button {
     height: 500px;
     width: 500px;
     display: grid;
+    padding: 0px;
     /* Setting the grid value to the display property  */
 }
 /*.playground {
