@@ -68,6 +68,8 @@ footer {
     background-color: rgb(55, 1, 79);
 }
 
+    
+
 #footerUl {
     padding-left: 0px;
 }
@@ -153,8 +155,14 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
-.playground {
+.container {
+    
+    height: 500px;
+    width: 500px;
+    display: grid;
+    /* Setting the grid value to the display property  */
+}
+/*.playground {
     max-width: 500px;
     min-width: 400px;
     height: 500px;
@@ -164,6 +172,15 @@ button {
     margin: 10px;
     margin-left: 50%;
     transform: translate(-50%, 0%);
+    
+}*/
+
+.playground {
+    background-image: url(../images/background-game1.jpg);
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+    border: 2px black solid;
 }
 
 .up {
