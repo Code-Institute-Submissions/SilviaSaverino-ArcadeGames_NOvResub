@@ -46,6 +46,21 @@ header {
     margin-right: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#n-bar { 
+    display: flex;
+    list-style: none;
+}
+
+#n-bar li {
+    display: flex;
+
+}
+
 /*body*/
 body {
     background-image: url(../images/background.jpg);
@@ -62,9 +77,6 @@ body {
     display: inline;
     font-size: 185%;
     margin: 15px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;*/
 }
 
 footer {
@@ -99,17 +111,12 @@ footer {
     justify-content: space-evenly;
 }
 
-/*button style*/
+
 button {
     height: 50px;
     max-width: 400px;
     width: 89%;
 }
-
-/*.button-distance {
-    margin: 50px;
-    margin-top: 85px;
-}*/
 
 .button-distance button {
     width: fit-content;
@@ -150,6 +157,8 @@ button {
 }
 
 #startBtn {
+    width: fit-content;
+    height: fit-content;
     background-color: rgba(81, 0, 255, 0.69);
     color: yellow;
     font-family: Chakra Petch, sans-serif, helvetica;
@@ -175,21 +184,7 @@ button {
     width: 500px;
     display: grid;
     padding: 0px;
-    /* Setting the grid value to the display property  */
 }
-
-/*.playground {
-    max-width: 500px;
-    min-width: 400px;
-    height: 500px;
-    border: 2px black solid;
-    background-image: url(../images/background-game1.jpg);
-    background-size: contain;
-    margin: 10px;
-    margin-left: 50%;
-    transform: translate(-50%, 0%);
-    
-}*/
 
 .playground {
     background-image: url(../images/background-game1.jpg);
