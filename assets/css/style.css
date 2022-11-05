@@ -20,7 +20,7 @@ p {
 
 
 /*header*/
-#logo{
+#logo {
     font-family: Chakra Petch, sans-serif, helvetica;
     font-size: 323%;
     letter-spacing: 5px;
@@ -28,10 +28,10 @@ p {
     text-align: center;
 }
 
-#menu li{
+#menu li {
     float: right;
     margin-right: 20px;
-    color: rgba(224, 51, 236, 255); 
+    color: rgba(224, 51, 236, 255);
     font-family: Chakra Petch, sans-serif, helvetica;
     display: inline;
     text-decoration: none;
@@ -42,7 +42,7 @@ header {
 }
 
 .header-link {
-    margin-left: 20px; 
+    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -62,10 +62,10 @@ body {
     display: inline;
     font-size: 185%;
     margin: 15px;
-   /* display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;*/
-  }
+}
 
 footer {
     background-color: rgb(55, 1, 79);
@@ -73,7 +73,7 @@ footer {
     width: 100%;
 }
 
-    
+
 
 #footerUl {
     padding-left: 0px;
@@ -82,7 +82,7 @@ footer {
 }
 
 .margin {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 /*---------------------------------------------------home page style------------------------------------------------*/
@@ -93,21 +93,27 @@ footer {
     background-color: rgba(101, 15, 139, 0.8);
     border: 2px solid black;
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /*button style*/
-button {    
+button {
     height: 50px;
     max-width: 400px;
     width: 89%;
 }
 
-.button-distance {
+/*.button-distance {
     margin: 50px;
     margin-top: 85px;
-}
+}*/
 
 .button-distance button {
+    width: fit-content;
+    height: fit-content;
     background-color: rgba(81, 0, 255, 0.69);
     color: yellow;
     font-family: Chakra Petch, sans-serif, helvetica;
@@ -143,7 +149,7 @@ button {
     height: 40px;
 }
 
-#startBtn {   
+#startBtn {
     background-color: rgba(81, 0, 255, 0.69);
     color: yellow;
     font-family: Chakra Petch, sans-serif, helvetica;
@@ -162,14 +168,16 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 .container-sm {
-    
+
     height: 500px;
     width: 500px;
     display: grid;
     padding: 0px;
     /* Setting the grid value to the display property  */
 }
+
 /*.playground {
     max-width: 500px;
     min-width: 400px;
@@ -194,12 +202,13 @@ button {
 .up {
     animation: jump 1s;
 }
-  
+
 @keyframes speeding {
     0% {
         left: 450px;
         top: 395px;
     }
+
     100% {
         left: 0px;
         top: 395px;
@@ -259,19 +268,20 @@ button {
     margin-bottom: 20px;
 }
 
-#computerMove { 
-    width: 100px; 
+#computerMove {
+    width: 100px;
     height: 100px;
 }
 
-#playerMove { 
-    width: 100px; 
-    height: 100px;}
+#playerMove {
+    width: 100px;
+    height: 100px;
+}
 
 .accessibility {
     color: purple;
 }
-    
+
 .playground-b {
     border: 2px black solid;
     background-image: url(../images/background2.jpg);
@@ -291,11 +301,11 @@ button {
 }
 
 
-.game2-button{
+.game2-button {
     height: 50px;
     width: 100%;
     background-color: transparent;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -374,4 +384,4 @@ button {
         min-width: 20%;
         min-height: 20%;
     }
-} 
+}
