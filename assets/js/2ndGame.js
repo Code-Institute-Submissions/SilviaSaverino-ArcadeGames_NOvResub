@@ -51,27 +51,27 @@ function generateComputerMove() {
 /** show result */
 function showResult() {
   if (computerChoice === playerChoice) {
-    results = 'Draw!'
+    results = 'Result: Draw!'
   }
 
   if (computerChoice === 'scissors' && playerChoice === "paper") {
-    results = 'You lose!'
+    results = 'Result: You lose!'
   }
   if (computerChoice === 'scissors' && playerChoice === "rock") {
-    results = 'You win!'
+    results = 'Result: You win!'
   }
 
   if (computerChoice === 'rock' && playerChoice=== "paper") {
-    results = 'You win!'
+    results = 'Result: You win!'
   }
   if (computerChoice === 'rock' && playerChoice === "scissors") {
-    results = 'You lose!'
+    results = 'Result: You lose!'
   }
   if (computerChoice === 'paper' && playerChoice === "scissors") {
-    results = 'You win!'
+    results = 'Result: You win!'
   }
   if (computerChoice === 'paper' && playerChoice === "rock") {
-    results = 'You lose!'
+    results = 'Result: You lose!'
   }
 
   resultDisplay.innerHTML = results;
