@@ -18,7 +18,6 @@ p {
     text-align: center;
 }
 
-
 /*header*/
 #logo {
     font-family: Chakra Petch, sans-serif, helvetica;
@@ -39,6 +38,7 @@ p {
 
 header {
     background-color: rgb(55, 1, 79);
+    margin-bottom: 0.5rem;
 }
 
 .header-link {
@@ -51,14 +51,13 @@ nav {
     justify-content: center;
 }
 
-#n-bar { 
+#n-bar {
     display: flex;
     list-style: none;
 }
 
 #n-bar li {
     display: flex;
-
 }
 
 /*body*/
@@ -68,9 +67,6 @@ body {
     max-height: 100%;
 }
 
-.main-style {
-    max-height: 500vh;
-}
 
 /*footer*/
 #social li {
@@ -83,18 +79,13 @@ footer {
     background-color: rgb(55, 1, 79);
     position: absolute;
     width: 100%;
+    margin-top: 0.5rem;
 }
-
-
 
 #footerUl {
     padding-left: 0px;
     display: flex;
     justify-content: center;
-}
-
-.margin {
-    margin-top: 10px;
 }
 
 /*---------------------------------------------------home page style------------------------------------------------*/
@@ -104,13 +95,11 @@ footer {
     max-width: 500px;
     background-color: rgba(101, 15, 139, 0.8);
     border: 2px solid black;
-    margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-
 
 button {
     height: 50px;
@@ -249,12 +238,12 @@ button {
     background-size: cover;
 }
 
-#last {
+#result {
     background-color: rgba(81, 0, 255, 0.69);
     color: yellow;
     font-family: Chakra Petch, sans-serif, helvetica;
     letter-spacing: 5px;
- /*   margin-top: 370px;*/
+    margin-top: 60px;
 }
 
 .computer-vs-player {
@@ -273,14 +262,12 @@ button {
     height: 100px;
 }
 
-.accessibility {
-    color: purple;
-}
-
 .playground-b {
     border: 2px black solid;
     background-image: url(../images/background2.jpg);
     background-size: contain;
+    height: 500px;
+    max-width: 500px;
 }
 
 .move {
@@ -295,13 +282,8 @@ button {
     clear: both;
 }
 
-
-.game2-button {
-    /*height: 50px;
-    width: 100%;*/
-    background-color: transparent;
-   /* display: flex;
-    flex-direction: column;*/
+.game2-button p {
+    display: flex;
 }
 
 .container {
