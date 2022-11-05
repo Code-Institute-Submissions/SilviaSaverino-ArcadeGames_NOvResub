@@ -290,50 +290,6 @@ button {
     max-width: 500px;
 }
 
-/*------------------------------------------------------third game-Falling Star-----------------------------------------------*/
-
-#playground-c {
-    max-width: 500px;
-    min-width: 350px;
-    height: 500px;
-    border: 2px black solid;
-    background-image: url(../images/background3.jpg);
-    background-size: contain;
-    margin: 10px;
-    margin-left: 50%;
-    transform: translate(-50%, 0%);
-}
-
-#ball {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    position: relative;
-    background-image: url(../images/star.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    top: 30px;
-    left: 220px;
-    z-index: 1;
-}
-
-.wall-class {
-    width: 500px;
-    height: 10px;
-    border: 10px rgba(63, 5, 170, 0.848) solid;
-    position: relative;
-    margin-top: 30px;
-}
-
-.crater-class {
-    width: 32px;
-    height: 10px;
-    border: 10px rgba(219, 192, 255, 0.499) solid;
-    position: relative;
-    top: -10px;
-}
-
-
 /*media query*/
 
 @media screen and (max-width: 1200px) {
