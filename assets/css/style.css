@@ -162,7 +162,7 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.container {
+.container-sm {
     
     height: 500px;
     width: 500px;
@@ -250,7 +250,13 @@ button {
     color: yellow;
     font-family: Chakra Petch, sans-serif, helvetica;
     letter-spacing: 5px;
-    margin-top: 265px;
+    margin-top: 370px;
+}
+
+.computer-vs-player {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 #computerMove { 
@@ -267,15 +273,15 @@ button {
 }
     
 .playground-b {
-    max-width: 500px;
+   /* max-width: 500px;
     min-width: 350px;
-    height: 500px;
+    height: 500px;*/
     border: 2px black solid;
     background-image: url(../images/background2.jpg);
     background-size: contain;
-    margin: 10px;
+   /* margin: 10px;
     margin-left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);*/
 }
 
 .move {
@@ -290,22 +296,24 @@ button {
     clear: both;
 }
 
-.column2 {
+/*.column2 {
     float: left;
 }
-
-.column3 {
+*/
+/*.column3 {
     float: left;
     width: 33.33%;
-}
+}*/
 
 
 
-.game2-button button {
+.game2-button /*button */{
     height: 50px;
     width: 100%;
     background-color: transparent;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    display:flex;
+    flex-direction: column;
 }
 
 
@@ -380,5 +388,7 @@ button {
     .img-container {
         max-width: 100%;
         max-height: 100%;
+        min-width: 20%;
+        min-height: 20%;
     }
 } 
