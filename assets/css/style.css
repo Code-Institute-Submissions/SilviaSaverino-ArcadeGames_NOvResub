@@ -101,15 +101,9 @@ footer {
     justify-content: space-evenly;
 }
 
-button {
-    height: 50px;
-    max-width: 400px;
-    width: 89%;
-}
-
-.button-distance button {
+#homepage-box button {
     width: fit-content;
-    height: fit-content;
+    height: 60px;
     background-color: rgba(81, 0, 255, 0.69);
     color: yellow;
     font-family: Chakra Petch, sans-serif, helvetica;
