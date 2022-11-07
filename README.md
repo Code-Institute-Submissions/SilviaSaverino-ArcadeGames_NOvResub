@@ -125,63 +125,46 @@ Here the user will be able to pick one of three possible options representing th
  
 ![screenshot of rock-paper-scissors options](/docs/img/options.png)
  
-- The game will start as soon as the user will pick an option, letting the computer choose it.
+- The game will start as soon as the user will pick an option, and let the computer choose its move.
  
 ![screenshot of game not started yet](/docs/img/choice-before.png)
  
 ![screenshot of game started](/docs/img/choice-after.png)
  
-- Results will be displayed at the bottom of the playground, stating either of the three possible outcomes
+- Results will be displayed at the bottom of the playground, showing one of the three possible outcomes:
+
  - 1) Draw
- 
- ![screenshot of 'it's a draw' result](/docs/img/draw-result.png)
+  ![screenshot of 'it's a draw' result](/docs/img/draw-result.png)
  
  - 2) User win
- 
- ![screenshot of 'you win' result](/docs/img/you-win-result.png)
+  ![screenshot of 'you win' result](/docs/img/you-win-result.png)
  
  - 3) User lose
+  ![screenshot of 'you lose' result](/docs/img/you-lose-result.png)
  
- ![screenshot of 'you lose' result](/docs/img/you-lose-result.png)
- 
- In this version of the game, the user will be able to play as much as she/he wants.
- In future versions, this game will feature a score section to display who is actually winning in the long run...
- 
- ## 3rd Game - Falling Star
- 
- Another reinterpretation (in terms of graphic) of a classic game. This version features as a character a little yellow start
- 
- ![screenshot of game3 character](/docs/img/star.png)
- 
- Set in a background featuring a starred universe
- 
- ![screenshot of game3 background](docs/img/game3-playground.png)
- 
- The player will have to move either left or right to let the start falling on the ''pavement'' underneath , by using the ''holes'' in the pavement itself. A visual color difference will help the player identify the hole and go towards that direction.
- 
- ![screenshot of wall&crater of game3](docs/img/wall%26crater.png)
- 
- - The game will end when the star will touch the top of the playground; if and when the user won't be fast enough to let its star fall down below, as the walls will be moving upwards towards the playground top.
- The 'Game over-play again' option will pop up should this happen.
+ In this first game release, the user will be able to play as much as she/he wants.
+ In future releases, this game will feature a score section to show who is actually winning in the long run...
  
  
 ## Visual and audio
  
 The different backgrounds used in this website should please the users and deliver a positive visual response.
  
-The three different soundtracks chosen and assigned to the three games, should be catchy enough to let the user continue its positive experience. An option of pausing the music, or play without volume had been provided should the user prefer this way.
+The two different soundtracks chosen for each game, should be catchy enough to let the user continue its positive experience. 
+However, an option to pause the soundtrack, or even play without volume has been provided.
  
  
 ## Footer
  
-The footer had been kept simple and easy to locate. By maintaining the same color palette used in the whole site; it displays favicons of the most known social platforms.
+The footer had been kept simple and easy to locate. It displays favicons of the most known social platforms.
  
 ![screenshot of footer](/docs/img/footer.png)
  
-The idea behind this is to create a sense of community where players can post about their scores (-to be added in future versions of each games-) and overall to stay up-to-date with new games release.
+The idea behind this is to create a sense of community where players can share their thoughts and stay up-to-date with new games release.
  
 # *Technologies Used*
-Many sites have been helping me clarify concepts to complete this project. Such as:
+I've checked a few websites and additional external sources to complete this project. See below:
+
 -   [W3Schools](https://www.w3schools.com/)
     - Used to check html, ccs, and js , to have a good layout, style and find solutions to some bugs
 -   [Google Fonts](https://fonts.google.com/)
@@ -226,7 +209,7 @@ After fixing some errors on both testing sites- mainly some typos but also some 
  
 ![image of HTML positive validator results-home page](/docs/img/validator-index.png)
 ![image of HTML positive validator results-1st game](/docs/img/htmlCheker-game1.png)
-![image of HTML positive validator results-3rd game](/docs/img/validator-game3.png)
+
  
 ![image of CSS positive validator results](/docs/img/css-validation.png)
  
@@ -238,22 +221,10 @@ The Color Contrast Accessibility Validator was used to test for color contrast o
 ![image of Color Contrast validator with a positive response-index](/docs/img/color-contrast-validator.png)
 ![image of Color Contrast validator with a positive response-1st Game](/docs/img/colorCr-1stGame.png)
 ![image of Color Contrast validator with a positive response-2nd Game](/docs/img/colorCr-game2.png)
-![image of Color Contrast validator with a positive response-3rd Game](/docs/img/colorCr-game3.png)
  
 ### Known Bugs and issues
-The third game - Falling Star - is simply out of order.
  
-Sadly, way too much bug fixing had prevented me from finishing with the Javascript code to make it work.
- 
-HOWEVER! as this website has been created for learning purposes and to have fun whilst learning how to use Javascript language, and discover other few bits and bots of CSS and HTML, i've come to terms with myself and decided that the grade is not that much of a deal, so I've left the project as it is right now -just a button with an 'out of order message'.
- 
-![screenshot of 'out of order' button in game 3](docs/img/out-of-order.png)
- 
-For those of you wondering: I am very proud of what I've achieved so far.
- 
-- The music chosen for the games,although still in the audio folder, had been removed, as the site was super-slow and I don't have the right knowledge yet to fix this issue. To the few still reading this file, feel free to play in the background to fully experience what I originally wanted to provide the users with. Enjoy!
- 
-- Althought the HTML page ends right where the footer is, part of the main background image keeps on showing up underneath.
+- Althought the HTML page ends right where the footer is, part of the body element keeps on showing underneath.
 ![screenshot of part of the background showing underneath the HTML page](docs/img/knownbug.png)
  
 - There are two empty 'src' attributes in game2. The image had been uploaded through the css file
@@ -261,7 +232,7 @@ For those of you wondering: I am very proud of what I've achieved so far.
  
 #   Credits
 ##  Code
-The content for this website was created by the owner with the only purpose of putting into practice what has been learnt so far in CodeInstitute course.
+The content for this website was created by the owner to practice the Javascript module of CodeInstitute course.
 No game rules on this website are the fruit of the owner's imagination. Classic versions had been around for a long time.
  
 ##  Acknowledgements
@@ -275,13 +246,11 @@ I couldn't have done it without studying what was shown in their videos.
  
  [Ania Kubow Youtube channel](https://www.youtube.com/c/AniaKub%C3%B3w)
  
-On a more personal note I will have to offer dinner to many friends of mine:
+On a more personal note I would like to thank some friends of mine:
  
 - First of all my good friend Francesco Rubino, for patiently showing me how to fix some bugs and supporting me in the final stage of the project itself.
  
 - My dearest ones Martina and Cosimo for their support and patience.
- 
-- The crazy amounts of bloggers that took their time to post online tips on how to create some great code.
  
 - Harry Dillon from CodeInstitute who helped me figure out how to fix a few things.
  
