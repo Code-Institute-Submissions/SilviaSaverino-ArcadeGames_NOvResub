@@ -15,21 +15,47 @@
 </head>
 <body>
     <header>
-        <div>
-            <h2 id="logo">Rock Paper Scissors</h2>
-            <p>Welcome on in :)</p>
-        </div>
+        <h2 id="logo">Classic Games</h2>
+        <nav>
+            <ul id="n-bar">
+                <li>
+                    <a href="index.html" aria-label="link to homepage" title="Go back to Homepage">Homepage</a>
+                </li>
+                <li>
+                    <a href="1stGame.html" aria-label="link to Goat&Monkey" title="Go back to Goat&Monkey game"
+                        class="header-link">Goat&Monkey</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <div class="main-style">
-        <div class="d-flex justify-content-center text-center">
-            <div id="homepage-box">
-                <div>
-                    <button id="instruction">Instructions</button>
+    <div>
+        <div class="container">
+            <div class="playground-b text-center">
+                <div class="computer-vs-player">
+                    <div class="column2">
+                        <h2 class="move">Computer move:</h2>
+                        <img id="computerMove" alt="" src="" title="Image of computer chosen move">
+                    </div>
+                    <div class="colum2">
+                        <h2 class="move">Your move:</h2>
+                        <img id="playerMove" alt="" title="Image of player chosen move" src="">
+                    </div>
                 </div>
-                <div>
-                    <button id="rockBtn">Rock Paper Scissors</button>
-                </div>               
-            </div>
+                <div class="game2-button">
+                    <button id="rock" title="Click to play Rock"></button>
+                    <button id="paper" title="Click to play Paper"></button>
+                    <button id="scissors" title="Click to play Scissors"></button>
+                </div>
+                <div id="result">
+                    <h2>Result:</h2>
+                </div>
+            </div>   
+        </div>
+        <div class="audio">
+            <audio controls>
+                <source src="/assets/audio/game2-soundtrack.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
     </div>
     <footer>
@@ -60,6 +86,7 @@
             </ul>
         </div>
     </footer>
-    <script src="assets/js/script.js"></script>
+    <!--script-->
+    <script src="assets/js/2ndGame.js"></script>
 </body>
 </html>

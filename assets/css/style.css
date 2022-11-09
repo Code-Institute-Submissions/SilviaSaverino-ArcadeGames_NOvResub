@@ -78,6 +78,7 @@ body {
 footer {
     background-color: rgb(55, 1, 79);
     position: absolute;
+    bottom: 0;
     width: 100%;
     margin-top: 0.5rem;
 }
@@ -115,103 +116,6 @@ footer {
     display: flex;
     justify-content: center;
     color: rgba(81, 0, 255, 0.69);
-}
-
-/*---------------------------------------------------------first game - Goat&Monkey----------------------------------------*/
-#dd-player {
-    width: 30px;
-    height: 50px;
-    background-image: url(../images/player-game1.png);
-    position: relative;
-    top: 420px;
-    left: 30px;
-}
-
-#dd-player img {
-    width: 40px;
-    height: 65px;
-}
-
-#dd-obstacle {
-    width: 25px;
-    height: 25px;
-    background-image: none;
-    position: relative;
-    top: 395px;
-    left: 450px;
-}
-
-#dd-obstacle img {
-    width: 40px;
-    height: 40px;
-}
-
-#startBtn {
-    width: fit-content;
-    height: fit-content;
-    background-color: rgba(81, 0, 255, 0.69);
-    color: yellow;
-    font-family: Chakra Petch, sans-serif, helvetica;
-    letter-spacing: 5px;
-}
-
-.startG1 {
-    animation: speeding 2s infinite;
-}
-
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.container-sm {
-
-    height: 500px;
-    width: 500px;
-    display: grid;
-    padding: 0px;
-}
-
-.playground {
-    background-image: url(../images/background-game1.jpg);
-    background-size: contain;
-    height: 500px;
-    width: 500px;
-    border: 2px black solid;
-}
-
-.up {
-    animation: jump 1s;
-}
-
-@keyframes speeding {
-    0% {
-        left: 450px;
-        top: 395px;
-    }
-
-    100% {
-        left: 0px;
-        top: 395px;
-    }
-}
-
-@keyframes jump {
-    0% {
-        top: 420px;
-    }
-
-    35% {
-        top: 370px;
-    }
-
-    100% {
-        top: 420px;
-    }
 }
 
 /*--------------------------------------------------Second Game - Rock paper scissors game2 ----------------------------*/

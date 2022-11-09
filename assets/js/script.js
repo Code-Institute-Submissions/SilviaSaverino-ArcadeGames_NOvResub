@@ -1,9 +1,6 @@
-
 /*let the user open the game page by clicking on the buttons*/
-const goatBtn    = document.getElementById('goatBtn');
+const instruction = document.getElementById('instruction');
 const rockBtn    = document.getElementById('rockBtn');
-const fallingBtn = document.getElementById('fallingBtn');
 
-goatBtn.addEventListener('click', () => location.href="1stGame.html");
-rockBtn.addEventListener('click', () => location.href="2ndGame.html");
-fallingBtn.addEventListener('click', () => location.href="3rdGame.html");
+instruction.addEventListener('click', () => location.href="instructions.html");
+rockBtn.addEventListener('click', () => location.href="rockscissor.html");
