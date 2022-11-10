@@ -171,6 +171,8 @@ Below the positive results for this website.
 ![screenshots of Lighthouse results](docs/img/light-homepage.png)
 
 ![screenshots of Lighthouse results](docs/img/light-instructions.png)
+
+![screenshots of Lighthouse results](docs/img/light-game.png)
  
 ### **HTML and CSS Validation**
  
