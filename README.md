@@ -48,20 +48,12 @@ As user I would like to:
 The color scheme is maintained throughout the website. The body background features a few colors, ranging from yellow,purple,pink,and light-blue and so on. This same palette had been used throughout the whole site.
  
 ![screenshot of the body background image](/docs/img/body-background.png)
- 
-The main difference the user will notice is about the backgrounds chosen for each game.
- 
-- In the first game-Goat&Monkey, a background of mountains had been chosen to set the Goat and the Monkey in a possible real scenario.
- 
-![screenshot of 1st game playground's background](/docs/img/1st-game-playground.png)
-<br>
- 
- 
-- In the second game-Rock_Paper_Scissor, a background featuring some player/computer moves had been selected to let the user jump into a rock-paper-scissors world.
+  
+- In Rock_Paper_Scissor game, a background featuring some player/computer moves had been selected to let the user jump into a rock-paper-scissors world.
 The color scheme with relaxing shades of blue, pink and yellow, is constant throughout the game.
  
 ![screenshot of 2nd game playground's background](/docs/img/2nd-game-playground.png)
-<br>
+
  
 
 ##  Typography
@@ -82,38 +74,8 @@ Displayed centrally on the screen and with a color palette of pinks, purples and
  
 ![screenshot of homepage](/docs/img/homepage-game-selection.png)
  
-## 1st Game - Goat & Monkey:
- 
-By clicking on the first game option the user will have the possibility to play an interpretation of the classic game developed by Google [Dinosaur Game](https://en.wikipedia.org/wiki/Dinosaur_Game).
- 
-- The user will be able to control the character:
-a simple goat
- 
-![1st game character](/docs/img/goat.png)
- 
-by left-clicking on the mouse, to let it jump and avoid the obstacle, in this scenario: a monkey on an electric-scooter.
- 
-![1st game obstacle](/docs/img/monkey.png)
- 
-- The game won't start until the user clicks on the start button that appears centrally on the playground.
- 
-![screenshot of start button](/docs/img/start.png)
- 
-- Whenever the player won't be quick enough to avoid the monkey, a collision will happen and the game will be over. Yet, the user will be able to choose to play again by clicking on the button that appears after collision.
- 
-![screenshot of game-over/play again option](/docs/img/game-over.png)
- 
-- Should the user decide that she/he would like to play a different game, a simple nav bar had been provided in the header, to let the user easily navigate the website. 
 
-Links will change depending on which game the user will be playing. ########CHANGE HERE!#####################
- 
-![screenshot of nav bar from game1](/docs/img/navigation-bar-g1.png)
- 
-![screenshot of nav bar from game2](/docs/img/navigation-bar-g2.png)
- 
-
- 
-## 2nd Game - Rock, Paper, Scissors:
+## Game - Rock, Paper, Scissors:
  
 A real classic of rock, paper, scissors game displaying relaxing colors and image of hands gestures (used in the game itself) in the background.
  
@@ -143,8 +105,15 @@ Here the user will be able to pick one of three possible options representing th
   ![screenshot of 'you lose' result](/docs/img/you-lose-result.png)
  
  In this first game release, the user will be able to play as much as she/he wants.
- In future releases, this game will feature a score section to show who is actually winning in the long run...
- 
+ In future releases, this game will feature a score section to show who is actually winning in the long run.
+
+## Instructions page
+
+This page simply explain first time players the rules of the games and the instructions on how to play it.
+
+The colour palette used fot the whole website had been mainteined in this page too. Primary colours are: purple for the background and a shade of yellow for the text paragraph. This contrast allow user readability.
+
+![screenshot of instruction page]()
  
 ## Visual and audio
  
