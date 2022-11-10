@@ -1,17 +1,16 @@
 #   M2 project
-# Classic Games
+# Classic Game - Rock Paper Scissors
  
 ##  Strategy/Scope
 Classic Games is an entertainment site intended for users that are looking to play and de-stress. 
 
-The site features two games the user can play with:
-- 1)Goat & Monkey
-- 2)Rock Paper Scissor
+The site feature the classic game
+- Rock Paper Scissor
  
 The site goal is to enjoy playing and have some fun whilst trying any of the games. 
 No scores or levels have been added yet.
-In each page the user will find a similar layout with playgrounds centered, some instructions showing up and an intuitive site interface.
-Entertaining arcade sound tracks and some arcade graphic to let the user re-experience some nostalgic feelings.
+In each page the user will find a similar layout with playgrounds centered, instructions and an intuitive site interface.
+Entertaining sound track and catchy graphic choice should provide the user with a positive response.
  
  
 ## Site owner goals
@@ -31,7 +30,7 @@ As user I would like to:
  
 •   Navigate easily through the website.
  
-•   Have hints on how to play the game.
+•   Have clear instructions for how to play the game.
  
 •   Play/pause audio if not interested.
  
@@ -63,16 +62,16 @@ The font that had been used in the website is:
  
 The primary font had been selected from the vast catalog offered by [Google font](https://fonts.google.com/) because of its resemblance to arcade games fonts used back in the 80s and 90s.
  
-![Classic Games Logo](/docs/img/logo.png)
+![Classic Game Logo](/docs/img/logo.png)
  
 #  Structure
 ## Homepage:
  
-The site homepage besides the logo and the footer, features a small selection of games the user can choose from.
+The site homepage besides the logo and the footer, features a centered box with two buttons linked respectively to the instruction and the game page.
  
 Displayed centrally on the screen and with a color palette of pinks, purples and yellows to increase visibility contrast with the background.
  
-![screenshot of homepage](/docs/img/homepage-game-selection.png)
+![screenshot of homepage](/docs/img/homepage.png)
  
 
 ## Game - Rock, Paper, Scissors:
@@ -113,15 +112,13 @@ This page simply explain first time players the rules of the games and the instr
 
 The colour palette used fot the whole website had been mainteined in this page too. Primary colours are: purple for the background and a shade of yellow for the text paragraph. This contrast allow user readability.
 
-![screenshot of instruction page]()
- 
-## Visual and audio
- 
-The different backgrounds used in this website should please the users and deliver a positive visual response.
- 
-The two different soundtracks chosen for each game, should be catchy enough to let the user continue its positive experience. 
-However, an option to pause the soundtrack, or even play without volume has been provided.
- 
+![screenshot of instruction page](/docs/img/instructions.png)
+
+## Navigation bar
+
+A simple navigation bar had been provided on the different website pages, to allow the users to easily navigate the website, with the option to go back to the home page or go to the instructions page, or the game page accordingly to the user visited page.
+
+![screenshot of navigation bar](/docs/img/navbar.png)
  
 ## Footer
  
@@ -130,6 +127,7 @@ The footer had been kept simple and easy to locate. It displays favicons of the 
 ![screenshot of footer](/docs/img/footer.png)
  
 The idea behind this is to create a sense of community where players can share their thoughts and stay up-to-date with new games release.
+
  
 # *Technologies Used*
 I've checked a few websites and additional external sources to complete this project. See below:
