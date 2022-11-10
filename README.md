@@ -53,7 +53,6 @@ The color scheme with relaxing shades of blue, pink and yellow, is constant thro
 ![screenshot of 2nd game playground's background](/docs/img/2nd-game-playground.png)
 
  
-
 ##  Typography
  
 The font that had been used in the website is:
@@ -63,6 +62,7 @@ The primary font had been selected from the vast catalog offered by [Google font
  
 ![Classic Game Logo](/docs/img/logo.png)
  
+
 #  Structure
 
 ## Homepage:
@@ -80,27 +80,33 @@ A real classic of rock, paper, scissors game displaying relaxing colors and imag
  
 ![screenshot of 2nd game background](/docs/img/2nd-game-playground.png)
  
+
 Here the user will be able to pick one of the three possible options representing the classic moves a player could play in this version of the game.
 
 (FUN FACT: in other versions, mainly the french one, the player of rock-paper-scissors can pick up to 5 hand gestures - follow this [Link](https://en.wikipedia.org/wiki/Rock_paper_scissors) to discover more!)
  
 ![screenshot of rock-paper-scissors options](/docs/img/options.png)
  
+
 - The game will start as soon as the user will pick an option, and let the computer choose its move.
  
 ![screenshot of game not started yet](/docs/img/choice-before.png)
  
 ![screenshot of game started](/docs/img/choice-after.png)
  
+
 - Results will be displayed at the bottom of the playground, showing one of the three possible outcomes:
 
  - 1) Draw
+
   ![screenshot of 'it's a draw' result](/docs/img/draw-result.png)
  
  - 2) User win
+
   ![screenshot of 'you win' result](/docs/img/you-win-result.png)
  
  - 3) User lose
+
   ![screenshot of 'you lose' result](/docs/img/you-lose-result.png)
  
  In this first game release, the user will be able to play as much as she/he wants.
@@ -161,7 +167,9 @@ I've checked a few websites and additional external sources to complete this pro
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features.
 
 Below the positive results for this website.
+
 ![screenshots of Lighthouse results](docs/img/light-homepage.png)
+
 ![screenshots of Lighthouse results](docs/img/light-instructions.png)
  
 ### **HTML and CSS Validation**
@@ -169,6 +177,7 @@ Below the positive results for this website.
 After fixing some errors on both testing sites- mainly some typos but also some unnecessary sections in index.html or style elements in style.css , the site eventually passed the W3C Validation.
  
 ![image of HTML positive validator results-homepage](/docs/img/validator-index.png)
+
 ![image of HTML positive validator results-instructions page](/docs/img/validator-instructions.png)
 
  
@@ -179,34 +188,46 @@ After fixing some errors on both testing sites- mainly some typos but also some 
 The initial color of logo content had a poor Contrast Ratio of 3.52 with the background. So I changed it to a darker green and a darker orange, and I've also slightly changed the opacity of the background color.
  
 The Color Contrast Accessibility Validator was used to test for color contrast on the project.
+
 ![image of Color Contrast validator with a positive response-index](/docs/img/color-contrast-validator.png)
-![image of Color Contrast validator with a positive response-1st Game](/docs/img/colorCr-1stGame.png)
 
  
 ### Known Bugs and issues
  
 - There are two empty 'src' attributes in the file rockscissor html. The image had been uploaded through the css file
+
 ![screenshot of known errors in html code in the game page](docs/img/validator-game.png)
 
 # Deployment
-Deployment
 
 I follow these steps to deploy my project.
+- Log in to GitHub 
+- Locate your GitHub repository page
+- Find the 'Settings' icon anc click on it
+- Once in the settings page, click on the 'Pages' menu item. It should be under 'Code and automation' section
+- In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
 
-See below for the Github procedure, and further down for the Heroku one.
+The site will be published within minutes.
+
 ## Forking the GitHub repository
 
 To view and edit the code without affecting the original repository: 
-• Locate the GitHub repository. 
-• Click on Fork, in the top right-hand corner. 
-• This will take you to your own repository to a fork with the same name as the original branch.
+
+- Locate the GitHub repository. 
+- Click on Fork, in the top right-hand corner.
+- Click on the small down arrow Select '+ Create a new fork' 
+- This will take you to your own repository to a fork with the same name as the original branch.
+- Rename repository
+- Click 'Create Fork'
 
 ## Creating a local clone of your project
 
-• Go to the GitHub repository. 
-• Click on Code to the right of the screen, click on HTTPs and copy the link. 
-• Open Git Bash and change the current working directory to the location where you want the cloned directory. 
-• Type git clone, paste the URL you copied earlier, and press Enter to create your local clone.
+To clone your repository follow the following steps:
+
+- Go to the GitHub repository. 
+- Click on Code to the right of the screen, click on HTTPs and copy the link. 
+- Open Git Bash and change the current working directory to the location where you want the cloned directory. 
+- Type git clone, paste the URL you copied earlier, and press Enter to create your local clone.
 
 
 #   Credits
