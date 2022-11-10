@@ -1,18 +1,18 @@
 #   M2 project
 # Classic Game - Rock Paper Scissors
- 
+
+
 ##  Strategy/Scope
 Classic Games is an entertainment site intended for users that are looking to play and de-stress. 
 
 The site feature the classic game
 - Rock Paper Scissor
  
-The site goal is to enjoy playing and have some fun whilst trying any of the games. 
-No scores or levels have been added yet.
+The site goal is to enjoy playing and have some fun and no scores or levels have been added in this release.
+
 In each page the user will find a similar layout with playgrounds centered, instructions and an intuitive site interface.
-Entertaining sound track and catchy graphic choice should provide the user with a positive response.
- 
- 
+
+
 ## Site owner goals
  
 As owner I would like to:
@@ -32,23 +32,22 @@ As user I would like to:
  
 •   Have clear instructions for how to play the game.
  
-•   Play/pause audio if not interested.
- 
 •   Enjoy the game with no challenges and difficult levels.
- 
-•   Be able to re-play the game without using the "back" button in the browser.
- 
+  
 •   Follow developer’s social platforms and users' posts too.
  
- 
+All of the above bullet points are achieved through a simple website design. A nav bar will help the user navigate easily through the pages. Instructions are provided on a separate page and the user can easily access them without relying on the 'back' button of the browser. Also social platform links are displayed in the footer, to allow the community to connect, and the user to follow the websites social media accounts.
+
 #   User Experience (UX)
  
 ##  Colour Scheme
+
 The color scheme is maintained throughout the website. The body background features a few colors, ranging from yellow,purple,pink,and light-blue and so on. This same palette had been used throughout the whole site.
  
 ![screenshot of the body background image](/docs/img/body-background.png)
-  
-- In Rock_Paper_Scissor game, a background featuring some player/computer moves had been selected to let the user jump into a rock-paper-scissors world.
+
+
+In Rock_Paper_Scissor game, a background featuring some player/computer moves had been selected to let the user jump into a rock-paper-scissors world.
 The color scheme with relaxing shades of blue, pink and yellow, is constant throughout the game.
  
 ![screenshot of 2nd game playground's background](/docs/img/2nd-game-playground.png)
@@ -65,6 +64,7 @@ The primary font had been selected from the vast catalog offered by [Google font
 ![Classic Game Logo](/docs/img/logo.png)
  
 #  Structure
+
 ## Homepage:
  
 The site homepage besides the logo and the footer, features a centered box with two buttons linked respectively to the instruction and the game page.
@@ -80,7 +80,7 @@ A real classic of rock, paper, scissors game displaying relaxing colors and imag
  
 ![screenshot of 2nd game background](/docs/img/2nd-game-playground.png)
  
-Here the user will be able to pick one of three possible options representing the classic moves a player could play in this version of the game.
+Here the user will be able to pick one of the three possible options representing the classic moves a player could play in this version of the game.
 
 (FUN FACT: in other versions, mainly the french one, the player of rock-paper-scissors can pick up to 5 hand gestures - follow this [Link](https://en.wikipedia.org/wiki/Rock_paper_scissors) to discover more!)
  
@@ -159,23 +159,17 @@ I've checked a few websites and additional external sources to complete this pro
 ### **Lighthouse**
  
 Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features.
- 
-Initially results were showing a performance of just 88% - due to the weight of the audio files chosen for each game.
-![screenshots of Lighthouse results](docs/img/lighthouse-before.png)
- 
-I've decided that just a single soundtrack in the end should have been enough, and so increase the performance results.
-![screenshots of Lighthouse results](docs/img/lighthouse-homepage.png)
-![screenshots of Lighthouse results](docs/img/light-house-1stGame.png)
-![screenshots of Lighthouse results](docs/img/lighthouse-game2.png)
-![screenshots of Lighthouse results](docs/img/lighthouse-game3.png)
- 
+
+Below the positive results for this website.
+![screenshots of Lighthouse results](docs/img/light-homepage.png)
+![screenshots of Lighthouse results](docs/img/light-instructions.png)
  
 ### **HTML and CSS Validation**
  
 After fixing some errors on both testing sites- mainly some typos but also some unnecessary sections in index.html or style elements in style.css , the site eventually passed the W3C Validation.
  
-![image of HTML positive validator results-home page](/docs/img/validator-index.png)
-![image of HTML positive validator results-1st game](/docs/img/htmlCheker-game1.png)
+![image of HTML positive validator results-homepage](/docs/img/validator-index.png)
+![image of HTML positive validator results-instructions page](/docs/img/validator-instructions.png)
 
  
 ![image of CSS positive validator results](/docs/img/css-validation.png)
@@ -187,35 +181,50 @@ The initial color of logo content had a poor Contrast Ratio of 3.52 with the bac
 The Color Contrast Accessibility Validator was used to test for color contrast on the project.
 ![image of Color Contrast validator with a positive response-index](/docs/img/color-contrast-validator.png)
 ![image of Color Contrast validator with a positive response-1st Game](/docs/img/colorCr-1stGame.png)
-![image of Color Contrast validator with a positive response-2nd Game](/docs/img/colorCr-game2.png)
+
  
 ### Known Bugs and issues
  
-- Althought the HTML page ends right where the footer is, part of the body element keeps on showing underneath.
-![screenshot of part of the background showing underneath the HTML page](docs/img/knownbug.png)
- 
-- There are two empty 'src' attributes in game2. The image had been uploaded through the css file
-![screenshot of known errors in html code in game2](docs/img/known-issue-game2.png)
- 
+- There are two empty 'src' attributes in the file rockscissor html. The image had been uploaded through the css file
+![screenshot of known errors in html code in the game page](docs/img/validator-game.png)
+
+# Deployment
+Deployment
+
+I follow these steps to deploy my project.
+
+See below for the Github procedure, and further down for the Heroku one.
+## Forking the GitHub repository
+
+To view and edit the code without affecting the original repository: 
+• Locate the GitHub repository. 
+• Click on Fork, in the top right-hand corner. 
+• This will take you to your own repository to a fork with the same name as the original branch.
+
+## Creating a local clone of your project
+
+• Go to the GitHub repository. 
+• Click on Code to the right of the screen, click on HTTPs and copy the link. 
+• Open Git Bash and change the current working directory to the location where you want the cloned directory. 
+• Type git clone, paste the URL you copied earlier, and press Enter to create your local clone.
+
+
 #   Credits
 ##  Code
 The content for this website was created by the owner to practice the Javascript module of CodeInstitute course.
 No game rules on this website are the fruit of the owner's imagination. Classic versions had been around for a long time.
  
 ##  Acknowledgements
-I firstly would like to acknowledge the two youtubers that took their time to post some tutorials online.
-I couldn't have done it without studying what was shown in their videos.
- -Shawn Beaton and his channel
- 
- [KnifeCircus Youtube channel](https://www.youtube.com/c/KnifeCircus)
- 
+I would like to acknowledge the youtuber that took her time to post some tutorials online.
+I couldn't have done it without studying what was shown in those videos.
+
  -Ania Kubow and her channel
  
  [Ania Kubow Youtube channel](https://www.youtube.com/c/AniaKub%C3%B3w)
  
 On a more personal note I would like to thank some friends of mine:
  
-- First of all my good friend Francesco Rubino, for patiently showing me how to fix some bugs and supporting me in the final stage of the project itself.
+- My good friend Francesco Rubino, for patiently showing me how to fix some bugs and supporting me in the final stage of the project itself.
  
 - My dearest ones Martina and Cosimo for their support and patience.
  
