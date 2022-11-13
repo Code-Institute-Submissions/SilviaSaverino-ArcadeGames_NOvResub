@@ -6,9 +6,9 @@
 Classic Games is an entertainment site intended for users that are looking to play and de-stress. 
 
 The site feature the classic game
-- Rock Paper Scissor
+- Rock Paper Scissors
  
-The site goal is to enjoy playing and have some fun and no scores or levels have been added in this release.
+The site goal is to enjoy playing and have some fun. No scores or levels have been added in this release.
 
 In each page the user will find a similar layout with playgrounds centered, instructions and an intuitive site interface.
 
@@ -42,12 +42,12 @@ All of the above bullet points are achieved through a simple website design. A n
  
 ##  Colour Scheme
 
-The color scheme is maintained throughout the website. The body background features a few colors, ranging from yellow,purple,pink,and light-blue and so on. This same palette had been used throughout the whole site.
+The color scheme is maintained on each page of the website. The body background features a few colors, ranging from yellow,purple,pink,and light-blue and so on. This same palette had been used for different elements.
  
 ![screenshot of the body background image](/docs/img/body-background.png)
 
 
-In Rock_Paper_Scissor game, a background featuring some player/computer moves had been selected to let the user jump into a rock-paper-scissors world.
+In Rock_Paper_Scissors game, a background featuring some player/computer moves had been selected to let the user jump into a rock-paper-scissors world.
 The color scheme with relaxing shades of blue, pink and yellow, is constant throughout the game.
  
 ![screenshot of 2nd game playground's background](/docs/img/2nd-game-playground.png)
@@ -67,7 +67,7 @@ The primary font had been selected from the vast catalog offered by [Google font
 
 ## Homepage:
  
-The site homepage besides the logo and the footer, features a centered box with two buttons linked respectively to the instruction and the game page.
+The site homepage besides the logo and the footer, features a centered box with two buttons linked respectively to the instructions and the game page.
  
 Displayed centrally on the screen and with a color palette of pinks, purples and yellows to increase visibility contrast with the background.
  
@@ -114,9 +114,9 @@ Here the user will be able to pick one of the three possible options representin
 
 ## Instructions page
 
-This page simply explain first time players the rules of the games and the instructions on how to play it.
+This page simply explains to first time players the rules of the game and the instructions on how to play it.
 
-The colour palette used fot the whole website had been mainteined in this page too. Primary colours are: purple for the background and a shade of yellow for the text paragraph. This contrast allow user readability.
+The colour palette used fot the whole website had been mainteined in this page too. Primary colours are: purple for the background and a shade of yellow for the text paragraph. This contrast allows user readability.
 
 ![screenshot of instruction page](/docs/img/instructions.png)
 
@@ -159,8 +159,7 @@ I've checked a few websites and additional external sources to complete this pro
 -   [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Used to validate all CSS code written and used in this web page.
 -   [AmIResponsive](http://ami.responsivedesign.is/)
-    - Used to generate responsive images used in README files.
- 
+    - Used to check how responsive the site is across different devices.
  
 ### **Lighthouse**
  
@@ -187,7 +186,7 @@ After fixing some errors on both testing sites- mainly some typos but also some 
  
  
 ### **Color Contrast Validator**
-The initial color of logo content had a poor Contrast Ratio of 3.52 with the background. So I changed it to a darker green and a darker orange, and I've also slightly changed the opacity of the background color.
+The initial color of logo content had a poor Contrast Ratio of 3.52 with the background. So I changed it to a darker shade of the same colour, and I've also slightly changed the opacity of the background color.
  
 The Color Contrast Accessibility Validator was used to test for color contrast on the project.
 
@@ -235,7 +234,7 @@ To clone your repository follow the following steps:
 #   Credits
 ##  Code
 The content for this website was created by the owner to practice the Javascript module of CodeInstitute course.
-No game rules on this website are the fruit of the owner's imagination. Classic versions had been around for a long time.
+No game rules on this website are fruit of the owner's imagination. Classic versions had been around for a long time.
  
 ##  Acknowledgements
 I would like to acknowledge the youtuber that took her time to post some tutorials online.
